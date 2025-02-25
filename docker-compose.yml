@@ -1,0 +1,14 @@
+services:
+  wigig:
+    image: wise_wigig:latest
+    container_name: wise_wigig
+    ports:
+      - 10003:22 #前面可以改成其他port
+    volumes:
+      - ./SHARED_FOLDER:/home/admin/wigig-module/SHARED_FOLDER
+    restart: unless-stopped
+    environment:
+      - TERM=xterm
+    tty: true
+    stdin_open: true
+    command: /start.sh
