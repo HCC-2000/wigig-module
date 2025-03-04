@@ -26,9 +26,6 @@
 #include <algorithm>
 #include <queue>
 
-//HCC
-#include <fstream>
-
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("DmgWifiMac");
@@ -1699,54 +1696,6 @@ DmgWifiMac::PrintSnrTable (void)
       std::cout << "***********************************************" << std::endl;
     }
 }
-
-std::pair<double, uint16_t>
-DmgWifiMac::HCC_PrintSnrConfiguration (SNR_MAP &snrMap, std::string snrFileName)
-{
-  std::ofstream snrFile (snrFileName, std::ios::app);
-  double max_snr = -200;
-  uint16_t max_sector = 0;
-  if (snrMap.begin () == snrMap.end ())
-    {
-      std::cout << "No SNR Information Availalbe" << std::endl;
-    }
-  else
-    {
-      
-      double time = Simulator::Now().GetSeconds();
-      for (SNR_MAP::iterator it = snrMap.begin (); it != snrMap.end (); it++)
-        {
-          ANTENNA_CONFIGURATION_COMBINATION config = it->first;
-          snrFile << "Time[s]=" << time
-                  << ", My AntennaID=" << static_cast<u_int16_t>(std::get<0> (config)) 
-                  << ", Peer AntennaID=" << static_cast<u_int16_t>(std::get<1> (config)) 
-                  << ", Peer SectorID=" << static_cast<u_int16_t>(std::get<2> (config)) 
-                  << ", SNR[dB]=" << RatioToDb (it->second) << std::endl;
-          if (RatioToDb(it->second) > max_snr) 
-            {
-              max_snr = RatioToDb(it->second);
-              max_sector = static_cast<uint16_t>(std::get<2> (config));
-            }
-        }
-    }
-  snrFile.close();
-  return std::make_pair(max_snr, max_sector);
-  
-}
-
-
-std::pair<double, uint16_t>
-DmgWifiMac::HCC_PrintSnrTable (std::string snrFileName)
-{
-  std::pair<double, uint16_t> max_snr_sector;
-  for (STATION_SNR_PAIR_MAP_CI it = m_stationSnrMap.begin (); it != m_stationSnrMap.end (); it++)
-    {
-      SNR_PAIR snrPair = it->second;
-      max_snr_sector = HCC_PrintSnrConfiguration (snrPair.first, snrFileName);
-    }
-  return max_snr_sector;
-}
-
 
 void
 DmgWifiMac::PrintBeamRefinementMeasurements (void)

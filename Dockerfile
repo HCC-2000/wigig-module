@@ -9,10 +9,12 @@ RUN apt-get update && apt-get install -y \
     g++-8 \
     openssh-server \
     sudo \
+    python3-pip \
+    ttf-mscorefonts-installer \ 
     && rm -rf /var/lib/apt/lists/* \
     && mkdir /var/run/sshd \
     && sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/sshd_config \
-    && sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config
+    && sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config 
 
 # 設置 g++-8 為默認編譯器
 RUN update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 40 && \
@@ -34,6 +36,9 @@ RUN mkdir -p /home/${USERNAME}/wigig-module \
 
 # 複製文件到用戶目錄
 COPY --chown=${USERNAME}:${USERNAME} . /home/${USERNAME}/wigig-module/
+
+# 安裝 python 套件
+RUN pip3 install -r /home/${USERNAME}/wigig-module/requirements.txt
 
 # 創建啟動腳本
 RUN echo '#!/bin/bash\n\
