@@ -1,7 +1,9 @@
 FROM ubuntu:18.04
 
 # 安裝必要的套件
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && \
+    echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | debconf-set-selections && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
     vim \
     git \
     cmake \
@@ -47,34 +49,8 @@ RUN adduser ${USERNAME} \
     && echo "${USERNAME}:${USER_PASSWORD}" | chpasswd \
     && usermod -aG sudo ${USERNAME}
 
-# 切換到新用戶
-USER ${USERNAME}
-WORKDIR /home/${USERNAME}
-
-# 安裝 pyenv
-RUN curl https://pyenv.run | bash
-RUN echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc && \
-    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc && \
-    echo 'eval "$(pyenv init --path)"' >> ~/.bashrc && \
-    echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-
-# 安裝 Python 3.6.9
-RUN /bin/bash -c "source ~/.bashrc && \
-    pyenv install 3.6.9 && \
-    pyenv global 3.6.9"
-
-# 安裝 poetry
-RUN curl -sSL https://install.python-poetry.org | python3 - && \
-    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-
-# 配置 poetry
-RUN /bin/bash -c "source ~/.bashrc && \
-    poetry config virtualenvs.in-project true"
-
-# 切換回 root 用戶完成剩餘設置
-USER root
-
 # 創建工作目錄
+WORKDIR /home/${USERNAME}
 RUN mkdir -p /home/${USERNAME}/wigig-module \
     && chown ${USERNAME}:${USERNAME} /home/${USERNAME}/wigig-module
 
@@ -86,5 +62,3 @@ RUN echo '#!/bin/bash\n\
 service ssh start\n\
 tail -f /dev/null\n\
 ' > /start.sh && chmod +x /start.sh
-
-CMD ["/start.sh"]
