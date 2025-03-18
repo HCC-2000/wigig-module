@@ -1,0 +1,2259 @@
+Time [s],Max SNR[dB],SectorID
+Time[s]=0.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=0.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=0.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=0.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=0.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=0.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=0.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=0.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=0.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=0.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=0.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=0.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=0.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=0.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=0.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=0.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=1.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=1.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=1.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=1.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=1.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=1.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=1.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=1.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=2.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=2.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=2.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=2.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=2.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=2.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=2.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=2.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=2.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.875
+Time[s]=2.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.875
+Time[s]=2.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.875
+Time[s]=2.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.875
+Time[s]=2.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.875
+Time[s]=2.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.875
+Time[s]=2.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.875
+Time[s]=2.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8304
+, Active SectorID=4
+
+Time[s]=2.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8922
+Time[s]=2.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8922
+Time[s]=2.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8922
+Time[s]=2.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8923
+Time[s]=2.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8923
+Time[s]=2.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8923
+Time[s]=2.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8923
+Time[s]=2.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.6546
+, Active SectorID=4
+
+Time[s]=2.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9102
+Time[s]=2.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9102
+Time[s]=2.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.9103
+Time[s]=2.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9103
+Time[s]=2.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.9103
+Time[s]=2.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9103
+Time[s]=2.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9103
+Time[s]=2.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.3413
+, Active SectorID=4
+
+Time[s]=2.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.929
+Time[s]=2.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.929
+Time[s]=2.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.929
+Time[s]=2.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.929
+Time[s]=2.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.929
+Time[s]=2.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.929
+Time[s]=2.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=17.911
+, Active SectorID=4
+
+Time[s]=2.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9485
+Time[s]=2.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9485
+Time[s]=2.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.9485
+Time[s]=2.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9485
+Time[s]=2.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.9486
+Time[s]=2.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9486
+Time[s]=2.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9486
+Time[s]=2.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=17.3821
+, Active SectorID=4
+
+Time[s]=2.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9688
+Time[s]=2.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9688
+Time[s]=2.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9688
+Time[s]=2.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9688
+Time[s]=2.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9688
+Time[s]=2.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=16.7705
+, Active SectorID=4
+
+Time[s]=2.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9897
+Time[s]=2.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9898
+Time[s]=2.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.9898
+Time[s]=2.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9898
+Time[s]=2.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.9898
+Time[s]=2.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9898
+Time[s]=2.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9898
+Time[s]=2.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=16.09
+, Active SectorID=4
+
+Time[s]=2.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.0114
+Time[s]=2.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.0114
+Time[s]=2.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.0114
+Time[s]=2.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.0115
+Time[s]=2.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.0115
+Time[s]=2.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.0115
+Time[s]=2.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=15.3529
+, Active SectorID=4
+
+Time[s]=3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.0338
+Time[s]=3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.0338
+Time[s]=3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.0338
+Time[s]=3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.0339
+Time[s]=3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.0339
+Time[s]=3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.0339
+Time[s]=3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.0339
+Time[s]=3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=14.5694
+, Active SectorID=4
+
+Time[s]=3.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.0569
+Time[s]=3.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.0569
+Time[s]=3.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.0569
+Time[s]=3.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.0569
+Time[s]=3.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.0569
+Time[s]=3.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.057
+Time[s]=3.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.057
+Time[s]=3.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=13.7487
+, Active SectorID=4
+
+Time[s]=3.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.0807
+Time[s]=3.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.0807
+Time[s]=3.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.0807
+Time[s]=3.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.0807
+Time[s]=3.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.0807
+Time[s]=3.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.0807
+Time[s]=3.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=12.8987
+, Active SectorID=4
+
+Time[s]=3.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.1051
+Time[s]=3.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.1051
+Time[s]=3.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.1051
+Time[s]=3.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.1051
+Time[s]=3.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.1052
+Time[s]=3.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.1052
+Time[s]=3.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.1052
+Time[s]=3.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=12.0259
+, Active SectorID=4
+
+Time[s]=3.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.1302
+Time[s]=3.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.1302
+Time[s]=3.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.1302
+Time[s]=3.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.1302
+Time[s]=3.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.1302
+Time[s]=3.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.1303
+Time[s]=3.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=11.1364
+, Active SectorID=4
+
+Time[s]=3.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.1559
+Time[s]=3.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.1559
+Time[s]=3.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.156
+Time[s]=3.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.156
+Time[s]=3.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.156
+Time[s]=3.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.156
+Time[s]=3.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.156
+Time[s]=3.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=10.2349
+, Active SectorID=4
+
+Time[s]=3.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.1823
+Time[s]=3.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.1823
+Time[s]=3.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.1823
+Time[s]=3.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.1823
+Time[s]=3.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.1824
+Time[s]=3.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.1824
+Time[s]=3.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=9.3257
+, Active SectorID=4
+
+Time[s]=3.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2093
+Time[s]=3.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.2093
+Time[s]=3.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.2093
+Time[s]=3.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.2093
+Time[s]=3.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.2094
+Time[s]=3.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.2094
+Time[s]=3.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=8.41253
+, Active SectorID=4
+
+Time[s]=3.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.2369
+Time[s]=3.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2369
+Time[s]=3.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.237
+Time[s]=3.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.237
+Time[s]=3.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=7.49838
+, Active SectorID=4
+
+Time[s]=3.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2651
+Time[s]=3.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.2651
+Time[s]=3.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.2651
+Time[s]=3.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.2651
+Time[s]=3.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=6.586
+, Active SectorID=4
+
+Time[s]=4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2939
+Time[s]=4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.2939
+Time[s]=4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.2939
+Time[s]=4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.2939
+Time[s]=4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=5.67746
+, Active SectorID=4
+
+Time[s]=4.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.3232
+Time[s]=4.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.3232
+Time[s]=4.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.3232
+Time[s]=4.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.3232
+Time[s]=4.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.3233
+Time[s]=4.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=4.77465
+, Active SectorID=4
+
+Time[s]=4.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.3531
+Time[s]=4.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.3532
+Time[s]=4.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.3532
+Time[s]=4.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.3532
+Time[s]=4.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=3.87918
+, Active SectorID=1
+
+Time[s]=4.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.3538
+Time[s]=4.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.3538
+Time[s]=4.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.3538
+Time[s]=4.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.3538
+Time[s]=4.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.3532
+Time[s]=4.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.3538
+Time[s]=4.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=3.86142
+, Active SectorID=4
+
+Time[s]=4.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.3874
+Time[s]=4.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.3874
+Time[s]=4.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.3874
+Time[s]=4.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.3874
+Time[s]=4.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.3874
+Time[s]=4.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.3874
+Time[s]=4.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=2.88482
+, Active SectorID=4
+
+Time[s]=4.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.4145
+Time[s]=4.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.4145
+Time[s]=4.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.4146
+Time[s]=4.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.4146
+Time[s]=4.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.4146
+Time[s]=4.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=2.11518
+, Active SectorID=4
+
+Time[s]=4.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.446
+Time[s]=4.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.4461
+Time[s]=4.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.4461
+Time[s]=4.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=1.2485
+, Active SectorID=4
+
+Time[s]=4.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.478
+Time[s]=4.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=0.393162
+, Active SectorID=4
+
+Time[s]=4.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.5149
+Time[s]=4.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.5149
+Time[s]=4.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.5149
+Time[s]=4.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.515
+Time[s]=4.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.515
+Time[s]=4.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.515
+Time[s]=4.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.515
+Time[s]=4.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-0.561448
+, Active SectorID=4
+
+Time[s]=4.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-1.28172
+, Active SectorID=4
+
+Time[s]=5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.577
+Time[s]=5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.577
+Time[s]=5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-2.10054
+, Active SectorID=4
+
+Time[s]=5.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-1.57166
+, Active SectorID=5
+
+Time[s]=5.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-0.885007
+Time[s]=5.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.6452
+Time[s]=5.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.6453
+Time[s]=5.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-12.6453
+, Active SectorID=5
+
+Time[s]=5.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-0.236491
+Time[s]=5.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.68
+Time[s]=5.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.6801
+, Active SectorID=5
+
+Time[s]=5.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=0.376407
+, Active SectorID=5
+
+Time[s]=5.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=0.956003
+Time[s]=5.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.7508
+, Active SectorID=5
+
+Time[s]=5.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=1.50444
+, Active SectorID=5
+
+Time[s]=5.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=2.02368
+, Active SectorID=5
+
+Time[s]=5.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=2.51556
+Time[s]=5.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.8599
+, Active SectorID=5
+
+Time[s]=5.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=2.98176
+, Active SectorID=5
+
+Time[s]=6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=3.42385
+, Active SectorID=5
+
+Time[s]=6.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=3.84328
+, Active SectorID=5
+
+Time[s]=6.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=3.90052
+, Active SectorID=5
+
+Time[s]=6.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=3.48417
+Time[s]=6.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-12.9395
+, Active SectorID=5
+
+Time[s]=6.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=3.04536
+, Active SectorID=5
+
+Time[s]=6.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=2.58263
+, Active SectorID=5
+
+Time[s]=6.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=2.09446
+, Active SectorID=5
+
+Time[s]=6.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=1.57918
+, Active SectorID=5
+
+Time[s]=6.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=1.03496
+Time[s]=6.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.7558
+, Active SectorID=5
+
+Time[s]=6.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=0.459874
+Time[s]=6.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-12.72
+, Active SectorID=5
+
+Time[s]=7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-0.148205
+, Active SectorID=5
+
+Time[s]=7.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-0.791565
+Time[s]=7.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.65
+Time[s]=7.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.65
+Time[s]=7.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-12.6499
+, Active SectorID=5
+
+Time[s]=7.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-1.47269
+Time[s]=7.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.6156
+Time[s]=7.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.6156
+Time[s]=7.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-12.6155
+, Active SectorID=5
+
+Time[s]=7.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-2.19429
+Time[s]=7.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.5816
+, Active SectorID=5
+
+Time[s]=7.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.5482
+Time[s]=7.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.5482
+Time[s]=7.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.5481
+Time[s]=7.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-1.39252
+, Active SectorID=5
+
+Time[s]=7.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.5151
+Time[s]=7.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.5151
+Time[s]=7.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.5151
+Time[s]=7.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-0.562882
+, Active SectorID=4
+
+Time[s]=7.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.4826
+Time[s]=7.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.4825
+Time[s]=7.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.4825
+Time[s]=7.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.4825
+Time[s]=7.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=0.279028
+, Active SectorID=4
+
+Time[s]=7.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.4504
+Time[s]=7.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.4504
+Time[s]=7.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=1.13285
+, Active SectorID=4
+
+Time[s]=7.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.4189
+Time[s]=7.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.4189
+Time[s]=7.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.4189
+Time[s]=7.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.4189
+Time[s]=7.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=1.99801
+, Active SectorID=4
+
+Time[s]=7.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.3879
+Time[s]=7.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.3879
+Time[s]=7.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.3878
+Time[s]=7.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=2.87382
+, Active SectorID=4
+
+Time[s]=8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.3573
+Time[s]=8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.3573
+Time[s]=8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.3573
+Time[s]=8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.3573
+Time[s]=8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.3573
+Time[s]=8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.3573
+Time[s]=8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=3.75943
+, Active SectorID=4
+
+Time[s]=8.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.3274
+Time[s]=8.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.3274
+Time[s]=8.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.3273
+Time[s]=8.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.3273
+Time[s]=8.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.3273
+Time[s]=8.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.3273
+Time[s]=8.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=4.65381
+, Active SectorID=4
+
+Time[s]=8.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2979
+Time[s]=8.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.2979
+Time[s]=8.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.2979
+Time[s]=8.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.2979
+Time[s]=8.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=5.55569
+, Active SectorID=4
+
+Time[s]=8.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2691
+Time[s]=8.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.2691
+Time[s]=8.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.269
+Time[s]=8.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.269
+Time[s]=8.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=6.46355
+, Active SectorID=4
+
+Time[s]=8.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.2408
+Time[s]=8.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2408
+Time[s]=8.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.2408
+Time[s]=8.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.2408
+Time[s]=8.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.2408
+Time[s]=8.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.2408
+Time[s]=8.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.2407
+Time[s]=8.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=7.37558
+, Active SectorID=4
+
+Time[s]=8.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.2131
+Time[s]=8.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2131
+Time[s]=8.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.2131
+Time[s]=8.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.2131
+Time[s]=8.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.2131
+Time[s]=8.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.2131
+Time[s]=8.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=8.2896
+, Active SectorID=1
+
+Time[s]=8.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.2124
+Time[s]=8.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.2124
+Time[s]=8.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.2124
+Time[s]=8.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.2124
+Time[s]=8.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.2124
+Time[s]=8.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.2124
+Time[s]=8.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.2124
+Time[s]=8.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=8.31307
+, Active SectorID=4
+
+Time[s]=8.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.1861
+Time[s]=8.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.1861
+Time[s]=8.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.186
+Time[s]=8.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.186
+Time[s]=8.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.186
+Time[s]=8.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.186
+Time[s]=8.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.186
+Time[s]=8.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=9.20307
+, Active SectorID=4
+
+Time[s]=8.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.1596
+Time[s]=8.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.1596
+Time[s]=8.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.1596
+Time[s]=8.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.1595
+Time[s]=8.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.1595
+Time[s]=8.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=10.113
+, Active SectorID=4
+
+Time[s]=8.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.1338
+Time[s]=8.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.1337
+Time[s]=8.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.1337
+Time[s]=8.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.1337
+Time[s]=8.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=11.0157
+, Active SectorID=4
+
+Time[s]=9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.1086
+Time[s]=9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.1086
+Time[s]=9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.1086
+Time[s]=9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.1086
+Time[s]=9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.1085
+Time[s]=9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.1085
+Time[s]=9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=11.9072
+, Active SectorID=4
+
+Time[s]=9.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.0835
+Time[s]=9.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.0835
+Time[s]=9.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.0835
+Time[s]=9.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.0835
+Time[s]=9.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.0835
+Time[s]=9.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.0835
+Time[s]=9.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.0835
+Time[s]=9.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=12.7997
+, Active SectorID=4
+
+Time[s]=9.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.0602
+Time[s]=9.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.0602
+Time[s]=9.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.0602
+Time[s]=9.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.0602
+Time[s]=9.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.0602
+Time[s]=9.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.0602
+Time[s]=9.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.0601
+Time[s]=9.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=13.636
+, Active SectorID=4
+
+Time[s]=9.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.037
+Time[s]=9.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.037
+Time[s]=9.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.037
+Time[s]=9.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.037
+Time[s]=9.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.037
+Time[s]=9.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=14.461
+, Active SectorID=4
+
+Time[s]=9.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-12.0145
+Time[s]=9.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-12.0145
+Time[s]=9.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-12.0145
+Time[s]=9.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-12.0145
+Time[s]=9.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-12.0145
+Time[s]=9.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-12.0145
+Time[s]=9.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-12.0145
+Time[s]=9.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=15.25
+, Active SectorID=4
+
+Time[s]=9.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9927
+Time[s]=9.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9927
+Time[s]=9.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.9927
+Time[s]=9.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9927
+Time[s]=9.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.9927
+Time[s]=9.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9927
+Time[s]=9.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9927
+Time[s]=9.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=15.994
+, Active SectorID=4
+
+Time[s]=9.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9717
+Time[s]=9.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9717
+Time[s]=9.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.9717
+Time[s]=9.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9716
+Time[s]=9.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.9716
+Time[s]=9.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9716
+Time[s]=9.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9716
+Time[s]=9.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=16.6827
+, Active SectorID=4
+
+Time[s]=9.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9513
+Time[s]=9.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9513
+Time[s]=9.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.9513
+Time[s]=9.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9513
+Time[s]=9.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.9513
+Time[s]=9.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9513
+Time[s]=9.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9513
+Time[s]=9.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=17.3044
+, Active SectorID=4
+
+Time[s]=9.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9317
+Time[s]=9.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9317
+Time[s]=9.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.9317
+Time[s]=9.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9317
+Time[s]=9.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.9317
+Time[s]=9.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9317
+Time[s]=9.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9317
+Time[s]=9.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=17.8453
+, Active SectorID=4
+
+Time[s]=9.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.9128
+Time[s]=9.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.9128
+Time[s]=9.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.9128
+Time[s]=9.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.9128
+Time[s]=9.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.9128
+Time[s]=9.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.9128
+Time[s]=9.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.9128
+Time[s]=9.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.2898
+, Active SectorID=4
+
+Time[s]=10, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8947
+Time[s]=10, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8947
+Time[s]=10, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8947
+Time[s]=10, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8947
+Time[s]=10, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8947
+Time[s]=10, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8947
+Time[s]=10, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8947
+Time[s]=10, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.62
+, Active SectorID=4
+
+Time[s]=10.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8774
+Time[s]=10.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8774
+Time[s]=10.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8774
+Time[s]=10.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8773
+Time[s]=10.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8773
+Time[s]=10.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8773
+Time[s]=10.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8773
+Time[s]=10.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8156
+, Active SectorID=4
+
+Time[s]=10.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8608
+Time[s]=10.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8608
+Time[s]=10.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8608
+Time[s]=10.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8608
+Time[s]=10.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8608
+Time[s]=10.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8608
+Time[s]=10.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8608
+Time[s]=10.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8533
+, Active SectorID=4
+
+Time[s]=10.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.845
+Time[s]=10.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.845
+Time[s]=10.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.845
+Time[s]=10.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.845
+Time[s]=10.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.845
+Time[s]=10.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.845
+Time[s]=10.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.845
+Time[s]=10.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.7069
+, Active SectorID=4
+
+Time[s]=10.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.83
+Time[s]=10.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.83
+Time[s]=10.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.83
+Time[s]=10.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.83
+Time[s]=10.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.83
+Time[s]=10.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.83
+Time[s]=10.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.83
+Time[s]=10.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.3471
+, Active SectorID=4
+
+Time[s]=10.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8158
+Time[s]=10.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8158
+Time[s]=10.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8158
+Time[s]=10.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8158
+Time[s]=10.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8158
+Time[s]=10.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8158
+Time[s]=10.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8158
+Time[s]=10.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=17.7408
+, Active SectorID=4
+
+Time[s]=10.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8024
+Time[s]=10.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8024
+Time[s]=10.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8024
+Time[s]=10.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8024
+Time[s]=10.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8024
+Time[s]=10.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8024
+Time[s]=10.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8024
+Time[s]=10.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=16.8518
+, Active SectorID=4
+
+Time[s]=10.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7899
+Time[s]=10.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7899
+Time[s]=10.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7898
+Time[s]=10.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7898
+Time[s]=10.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7898
+Time[s]=10.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7898
+Time[s]=10.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7898
+Time[s]=10.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=15.6398
+, Active SectorID=4
+
+Time[s]=10.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7781
+Time[s]=10.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7781
+Time[s]=10.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7781
+Time[s]=10.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7781
+Time[s]=10.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7781
+Time[s]=10.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7781
+Time[s]=10.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7781
+Time[s]=10.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=14.0615
+, Active SectorID=4
+
+Time[s]=10.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7672
+Time[s]=10.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7672
+Time[s]=10.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7672
+Time[s]=10.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7672
+Time[s]=10.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7672
+Time[s]=10.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7672
+Time[s]=10.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7672
+Time[s]=10.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=12.0699
+, Active SectorID=4
+
+Time[s]=11, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7571
+Time[s]=11, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7571
+Time[s]=11, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7571
+Time[s]=11, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7571
+Time[s]=11, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7571
+Time[s]=11, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7571
+Time[s]=11, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7571
+Time[s]=11, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=9.616
+, Active SectorID=4
+
+Time[s]=11.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7479
+Time[s]=11.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7479
+Time[s]=11.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7479
+Time[s]=11.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7479
+Time[s]=11.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7479
+Time[s]=11.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7479
+Time[s]=11.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7479
+Time[s]=11.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=6.64861
+, Active SectorID=4
+
+Time[s]=11.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7395
+Time[s]=11.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7395
+Time[s]=11.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7395
+Time[s]=11.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7395
+Time[s]=11.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7395
+Time[s]=11.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7395
+Time[s]=11.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7395
+Time[s]=11.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=3.11555
+, Active SectorID=4
+
+Time[s]=11.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.732
+Time[s]=11.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.732
+Time[s]=11.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.732
+Time[s]=11.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.732
+Time[s]=11.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.732
+Time[s]=11.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.732
+Time[s]=11.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.732
+Time[s]=11.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-1.03413
+, Active SectorID=4
+
+Time[s]=11.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7253
+Time[s]=11.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7253
+Time[s]=11.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7253
+Time[s]=11.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7253
+Time[s]=11.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7253
+Time[s]=11.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7253
+Time[s]=11.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=2.70395
+Time[s]=11.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7253
+, Active SectorID=3
+
+Time[s]=11.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7195
+Time[s]=11.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7195
+Time[s]=11.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7195
+Time[s]=11.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7195
+Time[s]=11.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7195
+Time[s]=11.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7195
+Time[s]=11.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=6.6854
+Time[s]=11.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7195
+, Active SectorID=3
+
+Time[s]=11.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7145
+Time[s]=11.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7145
+Time[s]=11.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7145
+Time[s]=11.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7145
+Time[s]=11.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7145
+Time[s]=11.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7145
+Time[s]=11.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=10.2043
+Time[s]=11.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7145
+, Active SectorID=3
+
+Time[s]=11.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7105
+Time[s]=11.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7105
+Time[s]=11.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7105
+Time[s]=11.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7105
+Time[s]=11.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7105
+Time[s]=11.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7105
+Time[s]=11.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=13.201
+Time[s]=11.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7105
+, Active SectorID=3
+
+Time[s]=11.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7073
+Time[s]=11.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7073
+Time[s]=11.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7073
+Time[s]=11.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7073
+Time[s]=11.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7073
+Time[s]=11.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7073
+Time[s]=11.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=15.621
+Time[s]=11.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7073
+, Active SectorID=3
+
+Time[s]=11.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7049
+Time[s]=11.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7049
+Time[s]=11.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7049
+Time[s]=11.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7049
+Time[s]=11.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7049
+Time[s]=11.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7049
+Time[s]=11.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=17.4184
+Time[s]=11.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7049
+, Active SectorID=3
+
+Time[s]=12, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7035
+Time[s]=12, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7035
+Time[s]=12, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7035
+Time[s]=12, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7035
+Time[s]=12, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7035
+Time[s]=12, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7035
+Time[s]=12, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=18.5572
+Time[s]=12, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7035
+, Active SectorID=3
+
+Time[s]=12.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7029
+Time[s]=12.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7029
+Time[s]=12.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7029
+Time[s]=12.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7029
+Time[s]=12.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7029
+Time[s]=12.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7029
+Time[s]=12.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=19.0142
+Time[s]=12.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7029
+, Active SectorID=3
+
+Time[s]=12.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7032
+Time[s]=12.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7032
+Time[s]=12.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7032
+Time[s]=12.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7032
+Time[s]=12.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7032
+Time[s]=12.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7032
+Time[s]=12.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=18.78
+Time[s]=12.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7032
+, Active SectorID=3
+
+Time[s]=12.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7044
+Time[s]=12.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7044
+Time[s]=12.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7044
+Time[s]=12.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7044
+Time[s]=12.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7044
+Time[s]=12.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7044
+Time[s]=12.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=17.8594
+Time[s]=12.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7044
+, Active SectorID=3
+
+Time[s]=12.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7064
+Time[s]=12.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7064
+Time[s]=12.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7064
+Time[s]=12.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7064
+Time[s]=12.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7064
+Time[s]=12.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=16.2713
+Time[s]=12.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7064
+, Active SectorID=3
+
+Time[s]=12.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7093
+Time[s]=12.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7093
+Time[s]=12.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7093
+Time[s]=12.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7093
+Time[s]=12.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7093
+Time[s]=12.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7093
+Time[s]=12.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=14.0477
+Time[s]=12.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7093
+, Active SectorID=3
+
+Time[s]=12.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7131
+Time[s]=12.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7131
+Time[s]=12.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7131
+Time[s]=12.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7131
+Time[s]=12.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7131
+Time[s]=12.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7131
+Time[s]=12.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=11.2316
+Time[s]=12.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7131
+, Active SectorID=3
+
+Time[s]=12.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7178
+Time[s]=12.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7178
+Time[s]=12.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7178
+Time[s]=12.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7178
+Time[s]=12.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7178
+Time[s]=12.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7178
+Time[s]=12.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=7.87501
+Time[s]=12.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7178
+, Active SectorID=3
+
+Time[s]=12.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7179
+Time[s]=12.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7179
+Time[s]=12.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7179
+Time[s]=12.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7179
+Time[s]=12.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7179
+Time[s]=12.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7179
+Time[s]=12.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=7.78882
+Time[s]=12.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7179
+, Active SectorID=1
+
+Time[s]=12.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7234
+Time[s]=12.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7233
+Time[s]=12.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7234
+Time[s]=12.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7234
+Time[s]=12.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7234
+Time[s]=12.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7234
+Time[s]=12.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=3.95299
+Time[s]=12.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7234
+, Active SectorID=3
+
+Time[s]=13, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7297
+Time[s]=13, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7297
+Time[s]=13, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7297
+Time[s]=13, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7297
+Time[s]=13, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7297
+Time[s]=13, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7297
+Time[s]=13, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-0.222979
+Time[s]=13, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7297
+, Active SectorID=3
+
+Time[s]=13.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7371
+Time[s]=13.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7371
+Time[s]=13.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7371
+Time[s]=13.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7372
+Time[s]=13.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7372
+Time[s]=13.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=1.94864
+Time[s]=13.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7372
+Time[s]=13.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7372
+, Active SectorID=2
+
+Time[s]=13.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.745
+Time[s]=13.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.745
+Time[s]=13.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7451
+Time[s]=13.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7451
+Time[s]=13.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7451
+Time[s]=13.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=5.57252
+Time[s]=13.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7451
+Time[s]=13.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7451
+, Active SectorID=2
+
+Time[s]=13.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.754
+Time[s]=13.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.754
+Time[s]=13.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.754
+Time[s]=13.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.754
+Time[s]=13.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.754
+Time[s]=13.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=8.71671
+Time[s]=13.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.754
+Time[s]=13.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.754
+, Active SectorID=2
+
+Time[s]=13.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7638
+Time[s]=13.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7638
+Time[s]=13.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7638
+Time[s]=13.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7638
+Time[s]=13.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7638
+Time[s]=13.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=11.3308
+Time[s]=13.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7638
+Time[s]=13.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7638
+, Active SectorID=2
+
+Time[s]=13.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7744
+Time[s]=13.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7744
+Time[s]=13.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7744
+Time[s]=13.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7745
+Time[s]=13.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7745
+Time[s]=13.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=13.4661
+Time[s]=13.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7745
+Time[s]=13.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7745
+, Active SectorID=2
+
+Time[s]=13.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7859
+Time[s]=13.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7859
+Time[s]=13.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7859
+Time[s]=13.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7859
+Time[s]=13.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7859
+Time[s]=13.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=15.1725
+Time[s]=13.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7859
+Time[s]=13.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7859
+, Active SectorID=2
+
+Time[s]=13.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7982
+Time[s]=13.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7982
+Time[s]=13.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7982
+Time[s]=13.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7982
+Time[s]=13.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7982
+Time[s]=13.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=16.4978
+Time[s]=13.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7982
+Time[s]=13.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7983
+, Active SectorID=2
+
+Time[s]=13.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8113
+Time[s]=13.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8113
+Time[s]=13.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8113
+Time[s]=13.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8113
+Time[s]=13.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8114
+Time[s]=13.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=17.4866
+Time[s]=13.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8114
+Time[s]=13.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.8114
+, Active SectorID=2
+
+Time[s]=13.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8253
+Time[s]=13.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8253
+Time[s]=13.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8253
+Time[s]=13.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8253
+Time[s]=13.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=18.18
+Time[s]=13.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8253
+Time[s]=13.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.8253
+, Active SectorID=2
+
+Time[s]=14, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.84
+Time[s]=14, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.84
+Time[s]=14, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.84
+Time[s]=14, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.84
+Time[s]=14, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.84
+Time[s]=14, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=18.6156
+Time[s]=14, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.84
+Time[s]=14, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.84
+, Active SectorID=2
+
+Time[s]=14.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8555
+Time[s]=14.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8555
+Time[s]=14.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8555
+Time[s]=14.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8555
+Time[s]=14.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8556
+Time[s]=14.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=18.8275
+Time[s]=14.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8556
+Time[s]=14.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.8556
+, Active SectorID=2
+
+Time[s]=14.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8618
+Time[s]=14.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8618
+Time[s]=14.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8618
+Time[s]=14.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8618
+Time[s]=14.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8618
+Time[s]=14.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=18.8561
+Time[s]=14.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8618
+Time[s]=14.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.8618
+, Active SectorID=2
+
+Time[s]=14.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.846
+Time[s]=14.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.846
+Time[s]=14.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.846
+Time[s]=14.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8459
+Time[s]=14.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8459
+Time[s]=14.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=18.7222
+Time[s]=14.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8459
+Time[s]=14.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.8459
+, Active SectorID=2
+
+Time[s]=14.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8309
+Time[s]=14.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8309
+Time[s]=14.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8309
+Time[s]=14.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8309
+Time[s]=14.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8309
+Time[s]=14.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=18.3768
+Time[s]=14.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8309
+Time[s]=14.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.8309
+, Active SectorID=2
+
+Time[s]=14.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8167
+Time[s]=14.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8167
+Time[s]=14.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8167
+Time[s]=14.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8167
+Time[s]=14.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=17.7872
+Time[s]=14.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8166
+Time[s]=14.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.8166
+, Active SectorID=2
+
+Time[s]=14.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8032
+Time[s]=14.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8032
+Time[s]=14.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8032
+Time[s]=14.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8032
+Time[s]=14.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8032
+Time[s]=14.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=16.9173
+Time[s]=14.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.8032
+, Active SectorID=2
+
+Time[s]=14.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7906
+Time[s]=14.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7906
+Time[s]=14.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7906
+Time[s]=14.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7906
+Time[s]=14.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7906
+Time[s]=14.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=15.727
+Time[s]=14.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7906
+Time[s]=14.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7906
+, Active SectorID=2
+
+Time[s]=14.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7788
+Time[s]=14.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7788
+Time[s]=14.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7788
+Time[s]=14.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7788
+Time[s]=14.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7788
+Time[s]=14.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=14.1733
+Time[s]=14.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7788
+Time[s]=14.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7788
+, Active SectorID=2
+
+Time[s]=14.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7679
+Time[s]=14.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7679
+Time[s]=14.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7678
+Time[s]=14.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7678
+Time[s]=14.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7678
+Time[s]=14.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=12.2094
+Time[s]=14.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7678
+Time[s]=14.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7678
+, Active SectorID=2
+
+Time[s]=15, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7577
+Time[s]=15, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7577
+Time[s]=15, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7577
+Time[s]=15, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7577
+Time[s]=15, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7577
+Time[s]=15, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=9.78634
+Time[s]=15, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7577
+Time[s]=15, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7577
+, Active SectorID=2
+
+Time[s]=15.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7484
+Time[s]=15.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7484
+Time[s]=15.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7484
+Time[s]=15.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7484
+Time[s]=15.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7484
+Time[s]=15.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=6.85293
+Time[s]=15.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7484
+Time[s]=15.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7484
+, Active SectorID=2
+
+Time[s]=15.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.74
+Time[s]=15.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.74
+Time[s]=15.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.74
+Time[s]=15.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.74
+Time[s]=15.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.74
+Time[s]=15.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=3.35716
+Time[s]=15.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.74
+Time[s]=15.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.74
+, Active SectorID=8
+
+Time[s]=15.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7324
+Time[s]=15.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7324
+Time[s]=15.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7324
+Time[s]=15.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7324
+Time[s]=15.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7324
+Time[s]=15.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-0.75188
+Time[s]=15.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7324
+Time[s]=15.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7324
+, Active SectorID=2
+
+Time[s]=15.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7257
+Time[s]=15.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7257
+Time[s]=15.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7257
+Time[s]=15.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7257
+Time[s]=15.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7257
+Time[s]=15.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7257
+Time[s]=15.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=2.44242
+Time[s]=15.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7257
+, Active SectorID=3
+
+Time[s]=15.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7198
+Time[s]=15.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7198
+Time[s]=15.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7198
+Time[s]=15.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7198
+Time[s]=15.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7198
+Time[s]=15.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7198
+Time[s]=15.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=6.44946
+Time[s]=15.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7198
+, Active SectorID=3
+
+Time[s]=15.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7148
+Time[s]=15.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7148
+Time[s]=15.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7148
+Time[s]=15.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7148
+Time[s]=15.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7148
+Time[s]=15.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7148
+Time[s]=15.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=9.99909
+Time[s]=15.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7148
+, Active SectorID=3
+
+Time[s]=15.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7107
+Time[s]=15.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7107
+Time[s]=15.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7107
+Time[s]=15.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7107
+Time[s]=15.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7107
+Time[s]=15.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7107
+Time[s]=15.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=13.03
+Time[s]=15.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7107
+, Active SectorID=3
+
+Time[s]=15.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7074
+Time[s]=15.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7074
+Time[s]=15.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7074
+Time[s]=15.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7074
+Time[s]=15.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7074
+Time[s]=15.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7074
+Time[s]=15.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=15.4876
+Time[s]=15.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7074
+, Active SectorID=3
+
+Time[s]=15.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7051
+Time[s]=15.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7051
+Time[s]=15.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7051
+Time[s]=15.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7051
+Time[s]=15.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7051
+Time[s]=15.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7051
+Time[s]=15.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=17.325
+Time[s]=15.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7051
+, Active SectorID=3
+
+Time[s]=16, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7035
+Time[s]=16, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7035
+Time[s]=16, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7035
+Time[s]=16, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7035
+Time[s]=16, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7035
+Time[s]=16, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7035
+Time[s]=16, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=18.5058
+Time[s]=16, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7035
+, Active SectorID=3
+
+Time[s]=16.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7029
+Time[s]=16.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7029
+Time[s]=16.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7029
+Time[s]=16.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7029
+Time[s]=16.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7029
+Time[s]=16.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7029
+Time[s]=16.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=19.0059
+Time[s]=16.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7029
+, Active SectorID=3
+
+Time[s]=16.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7031
+Time[s]=16.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7031
+Time[s]=16.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7031
+Time[s]=16.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7031
+Time[s]=16.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7031
+Time[s]=16.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7032
+Time[s]=16.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=18.8148
+Time[s]=16.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7032
+, Active SectorID=3
+
+Time[s]=16.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7043
+Time[s]=16.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7043
+Time[s]=16.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7043
+Time[s]=16.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7043
+Time[s]=16.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7043
+Time[s]=16.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7043
+Time[s]=16.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=17.9367
+Time[s]=16.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7043
+, Active SectorID=3
+
+Time[s]=16.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7063
+Time[s]=16.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7063
+Time[s]=16.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7063
+Time[s]=16.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7063
+Time[s]=16.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7063
+Time[s]=16.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7063
+Time[s]=16.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=16.3895
+Time[s]=16.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7063
+, Active SectorID=3
+
+Time[s]=16.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7091
+Time[s]=16.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7091
+Time[s]=16.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7091
+Time[s]=16.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7091
+Time[s]=16.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7091
+Time[s]=16.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=14.2046
+Time[s]=16.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7091
+, Active SectorID=3
+
+Time[s]=16.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7129
+Time[s]=16.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7129
+Time[s]=16.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7129
+Time[s]=16.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7129
+Time[s]=16.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7129
+Time[s]=16.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7129
+Time[s]=16.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=11.4241
+Time[s]=16.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7129
+, Active SectorID=3
+
+Time[s]=16.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7175
+Time[s]=16.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7175
+Time[s]=16.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7175
+Time[s]=16.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7175
+Time[s]=16.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7175
+Time[s]=16.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7175
+Time[s]=16.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=8.09955
+Time[s]=16.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7175
+, Active SectorID=3
+
+Time[s]=16.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7229
+Time[s]=16.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7229
+Time[s]=16.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7229
+Time[s]=16.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7229
+Time[s]=16.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7229
+Time[s]=16.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7229
+Time[s]=16.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=4.28902
+Time[s]=16.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7229
+, Active SectorID=3
+
+Time[s]=16.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7293
+Time[s]=16.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7293
+Time[s]=16.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7293
+Time[s]=16.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7293
+Time[s]=16.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7293
+Time[s]=16.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7293
+Time[s]=16.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=0.0540022
+Time[s]=16.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=-11.7293
+, Active SectorID=3
+
+Time[s]=17, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7365
+Time[s]=17, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7365
+Time[s]=17, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7365
+Time[s]=17, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7365
+Time[s]=17, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7365
+Time[s]=17, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7365
+Time[s]=17, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7365
+Time[s]=17, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=1.59599
+, Active SectorID=1
+
+Time[s]=17.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7366
+Time[s]=17.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7366
+Time[s]=17.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7366
+Time[s]=17.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7366
+Time[s]=17.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7366
+Time[s]=17.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7366
+Time[s]=17.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7366
+Time[s]=17.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=1.67624
+, Active SectorID=4
+
+Time[s]=17.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7445
+Time[s]=17.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7445
+Time[s]=17.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7445
+Time[s]=17.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7445
+Time[s]=17.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7445
+Time[s]=17.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7445
+Time[s]=17.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7445
+Time[s]=17.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=5.36006
+, Active SectorID=1
+
+Time[s]=17.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7534
+Time[s]=17.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7534
+Time[s]=17.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7534
+Time[s]=17.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7534
+Time[s]=17.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7534
+Time[s]=17.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7534
+Time[s]=17.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7534
+Time[s]=17.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=8.53881
+, Active SectorID=4
+
+Time[s]=17.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7632
+Time[s]=17.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7632
+Time[s]=17.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7632
+Time[s]=17.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7632
+Time[s]=17.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7632
+Time[s]=17.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7632
+Time[s]=17.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7632
+Time[s]=17.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=11.1841
+, Active SectorID=4
+
+Time[s]=17.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7737
+Time[s]=17.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7738
+Time[s]=17.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7738
+Time[s]=17.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7738
+Time[s]=17.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7738
+Time[s]=17.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7738
+Time[s]=17.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7738
+Time[s]=17.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=13.3473
+, Active SectorID=4
+
+Time[s]=17.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7852
+Time[s]=17.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7852
+Time[s]=17.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7852
+Time[s]=17.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7852
+Time[s]=17.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7852
+Time[s]=17.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7852
+Time[s]=17.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7852
+Time[s]=17.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=15.0788
+, Active SectorID=4
+
+Time[s]=17.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.7974
+Time[s]=17.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.7974
+Time[s]=17.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.7974
+Time[s]=17.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.7974
+Time[s]=17.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.7974
+Time[s]=17.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.7974
+Time[s]=17.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.7975
+Time[s]=17.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=16.4263
+, Active SectorID=4
+
+Time[s]=17.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8105
+Time[s]=17.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8105
+Time[s]=17.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8105
+Time[s]=17.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8105
+Time[s]=17.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8105
+Time[s]=17.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8105
+Time[s]=17.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8105
+Time[s]=17.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=17.4346
+, Active SectorID=4
+
+Time[s]=17.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8244
+Time[s]=17.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8244
+Time[s]=17.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8244
+Time[s]=17.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8244
+Time[s]=17.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8244
+Time[s]=17.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8244
+Time[s]=17.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8244
+Time[s]=17.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.145
+, Active SectorID=4
+
+Time[s]=18, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8391
+Time[s]=18, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8391
+Time[s]=18, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8391
+Time[s]=18, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8391
+Time[s]=18, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8391
+Time[s]=18, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8391
+Time[s]=18, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8391
+Time[s]=18, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.5956
+, Active SectorID=4
+
+Time[s]=18.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8545
+Time[s]=18.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8545
+Time[s]=18.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8545
+Time[s]=18.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8546
+Time[s]=18.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8546
+Time[s]=18.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8546
+Time[s]=18.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8546
+Time[s]=18.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8203
+, Active SectorID=4
+
+Time[s]=18.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=18.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=18.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=18.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=18.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=18.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=18.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=18.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=18.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=18.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=18.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=18.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=18.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=18.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=18.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=18.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=18.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=18.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=18.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=18.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=18.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=18.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=18.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=18.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=18.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=18.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=18.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=18.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=18.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=18.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=18.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=18.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=18.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=18.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=18.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=18.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=18.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=18.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=18.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=18.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=18.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=18.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=18.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=18.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=18.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=18.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=18.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=18.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=18.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=18.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=18.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=18.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=18.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=18.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=18.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=18.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=18.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=18.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=18.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=18.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=18.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=19.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=19.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=19.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=19.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=19.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=19.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=19.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=19.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=20.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=20.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=20.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=20.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=20.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=20.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=20.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=20.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=1
+
+Time[s]=21.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=21.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=21.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=21.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=21.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=21.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=21.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=21.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=21.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=22.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=22.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=22.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=22.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=22.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=22.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=22.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=22.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=23.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=23.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=23.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=23.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=23.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=23.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=23.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=23.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24.2, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24.3, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.4, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24.5, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24.6, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24.7, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24.8, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=24.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=24.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=24.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=24.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=24.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=24.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=24.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=24.9, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=25, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=25, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=25, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=25, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=25, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=25, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=25, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=25, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+
+Time[s]=25.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=1, SNR[dB]=-11.8668
+Time[s]=25.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=2, SNR[dB]=-11.8668
+Time[s]=25.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=3, SNR[dB]=-11.8668
+Time[s]=25.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=4, SNR[dB]=-11.8668
+Time[s]=25.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=5, SNR[dB]=-11.8668
+Time[s]=25.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=6, SNR[dB]=-11.8668
+Time[s]=25.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=7, SNR[dB]=-11.8668
+Time[s]=25.1, My AntennaID=1, Peer AntennaID=1, Peer SectorID=8, SNR[dB]=18.8593
+, Active SectorID=4
+

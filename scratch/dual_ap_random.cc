@@ -3,6 +3,15 @@
  * Author: Hany Assasa <hany.assasa@gmail.com>
  */
 // #include <vector>
+
+
+//========== 雙AP隨機移動 =============
+//========== 雙AP隨機移動 =============
+//========== 雙AP隨機移動 =============
+//========== 雙AP隨機移動 =============
+//========== 雙AP隨機移動 =============
+//========== 同時把 STA 的 mmWave Node 整合成 "一個 Node 兩個 interface" =============
+
 #include "ns3/applications-module.h"
 #include "ns3/core-module.h"
 #include "ns3/flow-monitor-module.h"
@@ -120,14 +129,17 @@ new_InstallPacketSink(string dataRate,Ptr<Node> apNode ,NodeContainer STA_etherN
   ApplicationContainer srcApps;
 
   PacketSinkHelper sinkHelper (socketType, InetSocketAddress (Ipv4Address::GetAny (), port));
+  cout << "GetAny = " << Ipv4Address::GetAny () << endl;
   for (uint32_t i = 0; i < STA_etherNodes.GetN(); i++) {
     sinkApps.Add (sinkHelper.Install (STA_etherNodes.Get(i))); // Stas Node 是從 1 開始, 為了跳過代表 AP 的 0.
     sinkApps.Start (Seconds (0.0));
     sinkApps.Stop (Seconds (simulationTime));
   }
-  
+  cout << "?????" << endl;
   for (uint32_t i = 0; i < STA_etherNodes.GetN(); i++) {
-    OnOffHelper src (socketType, InetSocketAddress (STA_ethInterface.GetAddress (i), port));
+    OnOffHelper src (socketType, InetSocketAddress (STA_ethInterface.GetAddress (i*2+1), port));
+    cout << "Destination IP: " << STA_ethInterface.GetAddress (i*2+1) << endl;
+    cout << "Destination Port: " << port << endl;
     src.SetAttribute ("MaxPackets", UintegerValue (0));
     src.SetAttribute ("PacketSize", UintegerValue (1448));
     src.SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=1e6]"));
@@ -164,13 +176,17 @@ left_new_CalculateThroughput (string file_dir, Ptr<Node> apNode, NodeContainer S
     ofstream file(file_name, ios::app);
     Ptr<Node> staNode = STA_etherNodes.Get (i);
     thr[i] = CalculateSingleStreamThroughput (temp_sink, totalRx[i], throughput[i]);
-    std::pair<double, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
-    max_snr[i] = max_snr_sector.first;
+    std::tuple<double, uint16_t, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
+    max_snr[i] = std::get<0>(max_snr_sector);
+    uint16_t max_sector = std::get<1>(max_snr_sector);
+    uint16_t active_sector = std::get<2>(max_snr_sector);
     // if (max_snr[i] < 6 && RT_enable==true && thr[i]==0) staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac->GetAddress ());
-    if (max_snr[i] < 6 && RT_enable==true) staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_left->GetAddress ());
-    uint16_t max_sector = max_snr_sector.second;
+    if (RT_enable && active_sector!=max_sector) {
+      staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_left->GetAddress ());
+      std::cout << "STA " << i << "left performs TXSS TXOP" << endl;
+    }
     double angle = CalculateAngle(staNode, apNode); 
-    file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << endl;
+    file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << "," << active_sector << endl;
     file.close();
   }
 
@@ -210,13 +226,17 @@ right_new_CalculateThroughput (string file_dir, Ptr<Node> apNode, NodeContainer 
     ofstream file(file_name, ios::app);
     Ptr<Node> staNode = STA_etherNodes.Get (i);
     thr[i] = CalculateSingleStreamThroughput (temp_sink, totalRx[i], throughput[i]);
-    std::pair<double, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
-    max_snr[i] = max_snr_sector.first;
+    std::tuple<double, uint16_t, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
+    max_snr[i] = std::get<0>(max_snr_sector);
+    uint16_t max_sector = std::get<1>(max_snr_sector);
+    uint16_t active_sector = std::get<2>(max_snr_sector);
     // if (max_snr[i] < 6 && RT_enable==true && thr[i]==0) staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac->GetAddress ());
-    if (max_snr[i] < 6 && RT_enable==true) staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_right->GetAddress ());
-    uint16_t max_sector = max_snr_sector.second;
+    if (max_snr[i] < 6 && RT_enable && abs(active_sector-max_sector)!=4) {
+      staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_right->GetAddress ());
+      std::cout << "STA " << i << "right performs TXSS TXOP" << endl;
+    }
     double angle = CalculateAngle(staNode, apNode); 
-    file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << endl;
+    file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << "," << active_sector << endl;
     file.close();
   }
 
@@ -252,9 +272,9 @@ new_CreateFile (string file_dir, int ue_num)
     ofstream right_file (right_file_name, ios::out);
     ofstream left_snrFile (left_snrFileName, ios::out);
     ofstream right_snrFile (right_snrFileName, ios::out);
-    left_file << "Time [s],Throughput [Mbps],Max SectorID,Max SNR[dB],Angle[deg]" << std::endl;
+    left_file << "Time [s],Throughput [Mbps],Max SectorID,Max SNR[dB],Angle[deg],Active SectorID" << std::endl;
     left_file.close();
-    right_file << "Time [s],Throughput [Mbps],Max SectorID,Max SNR[dB],Angle[deg]" << std::endl;
+    right_file << "Time [s],Throughput [Mbps],Max SectorID,Max SNR[dB],Angle[deg],Active SectorID" << std::endl;
     right_file.close();
     left_snrFile << "Time [s],Max SNR[dB],SectorID" << std::endl;
     left_snrFile.close();
@@ -321,8 +341,7 @@ SLSCompleted (Ptr<DmgWifiMac> wifiMac, SlsCompletionAttrbitutes attributes)
     }
   else if (attributes.accessPeriod == CHANNEL_ACCESS_DTI)
     {
-      beamformedLinks++;
-      std::cout << "DMG STA " << wifiMac->GetAddress () << " completed SLS phase with DMG STA " << attributes.peerStation << std::endl;
+      std::cout << "DMG STA " << wifiMac->GetAddress () << " completed SLS phase with DMG AP" << attributes.peerStation << std::endl;
       std::cout << "The best antenna configuration is AntennaID=" << uint16_t (attributes.antennaID)
                 << ", SectorID=" << uint16_t (attributes.sectorID) << std::endl;
       // if (beamformedLinks == 2)
@@ -337,14 +356,6 @@ void
 ActiveTxSectorIDChanged (Ptr<DmgWifiMac> wifiMac, SectorID oldSectorID, SectorID newSectorID)
 {
   std::cout << "DMG STA: " << wifiMac->GetAddress () << " , SectorID=" << uint16_t (newSectorID) << std::endl;
-}
-
-void 
-position_seeker (Ptr<Node> node)
-{
-  Ptr<MobilityModel> mobility = node->GetObject<MobilityModel>();
-  std::cout << "position of node: " << mobility->GetPosition () << std::endl;
-  Simulator::Schedule (Seconds (1), &position_seeker, node);
 }
 
 void PrintInterfaceInfo(Ptr<Node> node) {
@@ -363,7 +374,20 @@ void PrintInterfaceInfo(Ptr<Node> node) {
     std::cout << "------------------------" << std::endl;
 }
 
+void print_position(Ptr<Node> node, int id, string filename) {
+  Ptr<MobilityModel> mobility = node->GetObject<MobilityModel>();
+  ofstream file(filename, ios::app);
+  file << Simulator::Now ().GetSeconds () << "," << mobility->GetPosition ().x << "," << mobility->GetPosition ().y << std::endl;
+  file.close();
+  Simulator::Schedule (Seconds (0.1), &print_position, node, id, filename);
+}
 
+void start_random_walk(Ptr<Node> node) {
+  Ptr<RandomWalk2dMobilityModel> mobility = node->GetObject<RandomWalk2dMobilityModel>();
+  mobility->SetAttribute("Mode", StringValue("Time"));
+  mobility->SetAttribute("Time", TimeValue(Seconds(1.0)));
+  mobility->SetAttribute("Speed", StringValue("ns3::ConstantRandomVariable[Constant=0.5]"));
+}
 
 int
 main (int argc, char *argv[])
@@ -374,19 +398,20 @@ main (int argc, char *argv[])
   //string applicationType = "bulk";              /* Type of the Tx application */
   bool activateApp = true;                      /* Flag to indicate whether we activate onoff or bulk App */
   string socketType = "ns3::TcpSocketFactory";  /* Socket Type (TCP/UDP) */
-  uint32_t packetSize = 1448;                   /* Application payload size in bytes. */
+  uint32_t packetSize = 1400;                   /* Application payload size in bytes. */
   string dataRate = "300Mbps";                  /* Application data rate. */
   // string tcpVariant = "NewReno";                /* TCP Variant Type. */
   string tcpVariant = "Bic";                /* TCP Variant Type. */
-  uint32_t bufferSize = 131072;                 /* TCP Send/Receive Buffer Size. */
+  uint32_t bufferSize = 0.45 * 1024 * 1024;                 /* TCP Send/Receive Buffer Size. */
   uint32_t maxPackets = 0;                      /* Maximum Number of Packets */
   string msduAggSize = "max";                     /* The maximum aggregation size for A-MSDU in Bytes. */
   string mpduAggSize = "max";                  /* The maximum aggregation size for A-MSPU in Bytes. */
+  // string mpduAggSize = "20000";                  /* The maximum aggregation size for A-MSPU in Bytes. */
   string queueSize = "4000p";                   /* Wifi MAC Queue Size. */
   string phyMode = "EDMG_OFDM_MCS8";                 /* Type of the Physical Layer. */
   bool verbose = false;                         /* Print Logging Information. */
   double simulationTime = 10;                   /* Simulation time in seconds. */
-  bool pcapTracing = true;                     /* PCAP Tracing is enabled or not. */
+  bool pcapTracing = false;                     /* PCAP Tracing is enabled or not. */
 
   /* Command line argument parser setup. */
   CommandLine cmd;
@@ -395,7 +420,9 @@ main (int argc, char *argv[])
   string file_dir;
   int user_num = 2;
   string comment;
-  bool circle = false;
+  bool random_walk = false;
+  uint32_t seed = 1;
+  bool mac_retx_enable = true;
   //--------------------------------
   cmd.AddValue ("ue", "The number of STAs", user_num);
   cmd.AddValue ("fileDir", "The directory to store the throughput files", file_dir);
@@ -403,7 +430,9 @@ main (int argc, char *argv[])
   cmd.AddValue ("activateApp", "Whether to activate data transmission or not", activateApp);
   cmd.AddValue ("vel", "The velocity of STA0", vel);
   cmd.AddValue ("retrain","Whether to retrain the beamforming or not", RT_enable);
-  cmd.AddValue ("circle", "Set the moving path as circle", circle);
+  cmd.AddValue ("random_walk", "Set the moving path as random walk", random_walk);
+  cmd.AddValue ("seed", "The seed of the experiment", seed);
+  cmd.AddValue ("mac_retx_enable", "Whether to enable MAC retransmission or not", mac_retx_enable);
   //cmd.AddValue ("applicationType", "Type of the Tx Application: onoff or bulk", applicationType);
   cmd.AddValue ("packetSize", "Application packet size in bytes", packetSize);
   cmd.AddValue ("dataRate", "Application data rate", dataRate);
@@ -418,6 +447,8 @@ main (int argc, char *argv[])
   cmd.AddValue ("pcap", "Enable PCAP Tracing", pcapTracing);
   cmd.Parse (argc, argv);
 
+
+  RngSeedManager::SetSeed (seed);
   /* Validate A-MSDU and A-MPDU values */
   ValidateFrameAggregationAttributes (msduAggSize, mpduAggSize);
   /* Configure RTS/CTS and Fragmentation */
@@ -426,6 +457,9 @@ main (int argc, char *argv[])
   ChangeQueueSize (queueSize);
 
   /*** Configure TCP Options ***/
+  if (mac_retx_enable)  Config::SetDefault ("ns3::TcpSocket::DelAckCount", UintegerValue (1));
+  
+
   ConfigureTcpOptions (tcpVariant, packetSize, bufferSize);
 
   /**** DmgWifiHelper is a meta-helper ****/
@@ -440,57 +474,85 @@ main (int argc, char *argv[])
       wifi.EnableLogComponents ();
       LogComponentEnable ("BeamformingCBAP", LOG_LEVEL_ALL);
     }
-
-  /**** Set up Channel ****/
-  DmgWifiChannelHelper wifiChannel ;
-  /* Simple propagation delay model */
-  wifiChannel.SetPropagationDelay ("ns3::ConstantSpeedPropagationDelayModel");
-  /* Friis model with standard-specific wavelength */
-  wifiChannel.AddPropagationLoss ("ns3::FriisPropagationLossModel", "Frequency", DoubleValue (60.48e9));
-
-  /**** Setup physical layer ****/
-  DmgWifiPhyHelper wifiPhy = DmgWifiPhyHelper::Default ();
-  /* Nodes will be added to the channel we set up earlier */
-  wifiPhy.SetChannel (wifiChannel.Create ());
-  /* All nodes transmit at 10 dBm == 10 mW, no adaptation */
-  wifiPhy.Set ("TxPowerStart", DoubleValue (10.0));
-  wifiPhy.Set ("TxPowerEnd", DoubleValue (10.0));
-  wifiPhy.Set ("TxPowerLevels", UintegerValue (1));
-  /* Set operating channel */
-  wifiPhy.Set ("ChannelNumber", UintegerValue (2));
-  wifiPhy.Set ("SupportOfdmPhy", BooleanValue (true));
-  /* Set default algorithm for all nodes to be constant rate */
-  wifi.SetRemoteStationManager ("ns3::ConstantRateWifiManager", "DataMode", StringValue (phyMode));
-  wifiPhy.SetErrorRateModel ("ns3::DmgErrorModel", "FileName", StringValue ("WigigFiles/ErrorModel/LookupTable_1458.txt"));
-  /* Make four nodes and set them up with the phy and the mac */
   
   // Create two AP nodes
-  NodeContainer AP_Nodes;
-  AP_Nodes.Create (2);
-  Ptr<Node> leftAp = AP_Nodes.Get (0);
-  Ptr<Node> rightAp = AP_Nodes.Get (1);
+  NodeContainer AP_wifiNodes;
+  AP_wifiNodes.Create (2);
+  Ptr<Node> leftAPWifi_node = AP_wifiNodes.Get (0);
+  Ptr<Node> rightAPWifi_node = AP_wifiNodes.Get (1);
  
   // Create STAs mmWave nodes
-  NodeContainer STA_mmWaveNodes;
-  STA_mmWaveNodes.Create (2*user_num);
+  NodeContainer STA_wifiNodes;
+  STA_wifiNodes.Create (user_num);
+
+  NodeContainer STA_etherNodes;
+  STA_etherNodes.Create (user_num);
 
   // merge all mmWave nodes
-  NodeContainer allmmWaveNodes;
-  allmmWaveNodes.Add (AP_Nodes);
-  allmmWaveNodes.Add (STA_mmWaveNodes);
+  NodeContainer allwifiNodes;
+  allwifiNodes.Add (AP_wifiNodes);
+  allwifiNodes.Add (STA_wifiNodes);
+  cout << "allwifiNodes size: " << allwifiNodes.GetN() << endl;
+
+  std::vector<NodeContainer> leftSTA_p2ppairs;
+  std::vector<NodeContainer> rightSTA_p2ppairs;
+  for (int i = 0; i < user_num; i++) {
+    leftSTA_p2ppairs.push_back(NodeContainer (STA_wifiNodes.Get (i),STA_etherNodes.Get (i)));
+    rightSTA_p2ppairs.push_back(NodeContainer (STA_wifiNodes.Get (i),STA_etherNodes.Get (i)));
+  }
+
+  PointToPointHelper STA_p2phelper;
+  STA_p2phelper.SetDeviceAttribute ("DataRate", StringValue ("5Gb/s"));
+  STA_p2phelper.SetChannelAttribute ("Delay", TimeValue (MilliSeconds (0.000)));
+  STA_p2phelper.SetQueue ("ns3::DropTailQueue", "MaxSize", StringValue ("4294967295p"));
+  NetDeviceContainer leftSTA_p2p_devices;
+  NetDeviceContainer rightSTA_p2p_devices;
+  for (int i = 0; i < user_num; i++) {
+    leftSTA_p2p_devices.Add (STA_p2phelper.Install (leftSTA_p2ppairs[i]));
+    rightSTA_p2p_devices.Add (STA_p2phelper.Install (rightSTA_p2ppairs[i]));
+  }
+
+  /**** Set up Channel ****/
+  DmgWifiChannelHelper wifiChannel_60480 ;
+  wifiChannel_60480.SetPropagationDelay ("ns3::ConstantSpeedPropagationDelayModel");
+  wifiChannel_60480.AddPropagationLoss ("ns3::FriisPropagationLossModel", "Frequency", DoubleValue (60.48e9));
+
+  DmgWifiChannelHelper wifiChannel_64800;
+  wifiChannel_64800.SetPropagationDelay ("ns3::ConstantSpeedPropagationDelayModel");
+  wifiChannel_64800.AddPropagationLoss ("ns3::FriisPropagationLossModel", "Frequency", DoubleValue (64.80e9));
+
+  /**** Setup physical layer ****/
+  DmgWifiPhyHelper wifiPhy_60480 = DmgWifiPhyHelper::Default ();
+  wifiPhy_60480.SetChannel (wifiChannel_60480.Create ());
+  wifiPhy_60480.Set ("TxPowerStart", DoubleValue (10.0));
+  wifiPhy_60480.Set ("TxPowerEnd", DoubleValue (10.0));
+  wifiPhy_60480.Set ("TxPowerLevels", UintegerValue (1));
+  wifiPhy_60480.Set ("ChannelNumber", UintegerValue (2));
+  wifiPhy_60480.Set ("SupportOfdmPhy", BooleanValue (true));
+  wifiPhy_60480.SetErrorRateModel ("ns3::DmgErrorModel", "FileName", StringValue ("WigigFiles/ErrorModel/LookupTable_1458.txt"));
+  
+  DmgWifiPhyHelper wifiPhy_64800 = DmgWifiPhyHelper::Default ();
+  wifiPhy_64800.SetChannel (wifiChannel_64800.Create ());
+  wifiPhy_64800.Set ("TxPowerStart", DoubleValue (10.0));
+  wifiPhy_64800.Set ("TxPowerEnd", DoubleValue (10.0));
+  wifiPhy_64800.Set ("TxPowerLevels", UintegerValue (1));
+  wifiPhy_64800.Set ("ChannelNumber", UintegerValue (2));
+  wifiPhy_64800.Set ("SupportOfdmPhy", BooleanValue (true));
+  wifiPhy_64800.SetErrorRateModel ("ns3::DmgErrorModel", "FileName", StringValue ("WigigFiles/ErrorModel/LookupTable_1458.txt"));
+
+  wifi.SetRemoteStationManager ("ns3::ConstantRateWifiManager", "DataMode", StringValue (phyMode));
+  // wifi.SetRemoteStationManager ("ns3::IdealWifiManager", "BerThreshold", DoubleValue (1e-6));
 
   /* Add a DMG upper mac */
-  DmgWifiMacHelper STA_LeftWifiMac = DmgWifiMacHelper::Default ();
-  DmgWifiMacHelper STA_RightWifiMac = DmgWifiMacHelper::Default ();
-  DmgWifiMacHelper AP_LeftWifiMac = DmgWifiMacHelper::Default ();
-  DmgWifiMacHelper AP_RightWifiMac = DmgWifiMacHelper::Default ();
+  DmgWifiMacHelper left_WifiMac = DmgWifiMacHelper::Default ();
+  DmgWifiMacHelper right_WifiMac = DmgWifiMacHelper::Default ();
 
   /* Install DMG PCP/AP Node */
   Ssid leftSsid = Ssid ("Left");
   Ssid rightSsid = Ssid ("Right");
   Ssid failed = Ssid ("Failed");
 
-  AP_LeftWifiMac.SetType ("ns3::DmgApWifiMac",
+  left_WifiMac.SetType ("ns3::DmgApWifiMac",
                         "Ssid", SsidValue(leftSsid),
                         // "Ssid", SsidValue(failed),  
                         "BE_MaxAmpduSize", StringValue (mpduAggSize),
@@ -498,8 +560,27 @@ main (int argc, char *argv[])
                         "SSSlotsPerABFT", UintegerValue (8), "SSFramesPerSlot", UintegerValue (8),
                         "EDMGSupported", BooleanValue (true),
                         "BeaconInterval", TimeValue (MicroSeconds (102400)));
+/* Set Analytical Codebook for the DMG Devices */
+  wifi.SetCodebook ("ns3::CodebookAnalytical",
+                    "CodebookType", EnumValue (SIMPLE_CODEBOOK),
+                    "Antennas", UintegerValue (1),
+                    "Sectors", UintegerValue (8));
+  NetDeviceContainer ap_wifiDevice;
+  ap_wifiDevice.Add (wifi.Install (wifiPhy_60480, left_WifiMac, leftAPWifi_node));//左側的AP
+  std::cout << "left AP mac address: " << ap_wifiDevice.Get (0)->GetAddress () << endl;
+  left_WifiMac.SetType ("ns3::DmgStaWifiMac",
+                        "Ssid", SsidValue (leftSsid), "ActiveProbing", BooleanValue (false),
+                        "EDMGSupported", BooleanValue (true),
+                        "BE_MaxAmpduSize", StringValue (mpduAggSize),
+                        "BE_MaxAmsduSize", StringValue (msduAggSize));
 
-  AP_RightWifiMac.SetType ("ns3::DmgApWifiMac",
+  NetDeviceContainer leftSTA_wifiDevice;
+  for (int i = 0; i < user_num; i++) {
+    leftSTA_wifiDevice.Add (wifi.Install (wifiPhy_60480, left_WifiMac, STA_wifiNodes.Get (i)));
+    std::cout << "STA " << i << " mac address: " << leftSTA_wifiDevice.Get (i)->GetAddress () << endl;
+  }
+
+  right_WifiMac.SetType ("ns3::DmgApWifiMac",
                         "Ssid", SsidValue(rightSsid),
                         // "Ssid", SsidValue(failed),  
                         "BE_MaxAmpduSize", StringValue (mpduAggSize),
@@ -507,135 +588,107 @@ main (int argc, char *argv[])
                         "SSSlotsPerABFT", UintegerValue (8), "SSFramesPerSlot", UintegerValue (8),
                         "EDMGSupported", BooleanValue (true),
                         "BeaconInterval", TimeValue (MicroSeconds (102400)));
-
-  /* Set Analytical Codebook for the DMG Devices */
-  wifi.SetCodebook ("ns3::CodebookAnalytical",
-                    "CodebookType", EnumValue (SIMPLE_CODEBOOK),
-                    "Antennas", UintegerValue (1),
-                    "Sectors", UintegerValue (8));
-
-  NetDeviceContainer apDevice;
-  apDevice.Add (wifi.Install (wifiPhy, AP_LeftWifiMac, leftAp));//左側的AP
-  apDevice.Add (wifi.Install (wifiPhy, AP_RightWifiMac, rightAp));//右側的AP
-  cout << "mac address of left AP: " << apDevice.Get (0)->GetAddress () << endl;
-  cout << "mac address of right AP: " << apDevice.Get (1)->GetAddress () << endl;
-
-  /* Install DMG STA Nodes */
-  STA_LeftWifiMac.SetType ("ns3::DmgStaWifiMac",
-                      "Ssid", SsidValue (leftSsid), "ActiveProbing", BooleanValue (false),
-                      "EDMGSupported", BooleanValue (true),
-                      "BE_MaxAmpduSize", StringValue (mpduAggSize),
-                      "BE_MaxAmsduSize", StringValue (msduAggSize));
-
-  STA_RightWifiMac.SetType ("ns3::DmgStaWifiMac",
-                      "Ssid", SsidValue (rightSsid), "ActiveProbing", BooleanValue (false),
-                      "EDMGSupported", BooleanValue (true),
-                      "BE_MaxAmpduSize", StringValue (mpduAggSize),
-                      "BE_MaxAmsduSize", StringValue (msduAggSize));
-
-
-  NetDeviceContainer STA_LeftDevices;
-  NetDeviceContainer STA_RightDevices;
-  for (int i = 0; i < user_num; i++) {
-    
-    STA_LeftDevices.Add(wifi.Install (wifiPhy, STA_LeftWifiMac, STA_mmWaveNodes.Get (2*i)));//偶數為 STAs 與 左側 AP 連接的 netdevice
-    STA_RightDevices.Add(wifi.Install (wifiPhy, STA_RightWifiMac, STA_mmWaveNodes.Get (2*i+1)));//奇數為 STAs 與 右側 AP 連接的 netdevice
-  }
-
-  //代表 STA 實際上的節點
-  NodeContainer STA_ethNodes;
-  STA_ethNodes.Create (user_num);
   
-  // 儲存 2*user_num 個節點，代表每個 mmWave interface 和 STA 實體節點的 p2p 連結
-  std::vector<NodeContainer> STA_NodePair;
+  // wifi.SetCodebook ("ns3::CodebookAnalytical",
+  //                   "CodebookType", EnumValue (SIMPLE_CODEBOOK),
+  //                   "Antennas", UintegerValue (1),
+  //                   "Sectors", UintegerValue (8));
+
+  ap_wifiDevice.Add (wifi.Install (wifiPhy_64800, right_WifiMac, rightAPWifi_node));//右側的AP
+  std::cout << "right AP mac address: " << ap_wifiDevice.Get (1)->GetAddress () << endl;
+
+  right_WifiMac.SetType ("ns3::DmgStaWifiMac",
+                        "Ssid", SsidValue (rightSsid), "ActiveProbing", BooleanValue (false),
+                        "EDMGSupported", BooleanValue (true),
+                        "BE_MaxAmpduSize", StringValue (mpduAggSize),
+                        "BE_MaxAmsduSize", StringValue (msduAggSize));
+                        
+  NetDeviceContainer rightSTA_wifiDevice;
   for (int i = 0; i < user_num; i++) {
-    NodeContainer STA_leftNodePair = NodeContainer(STA_mmWaveNodes.Get(2*i), STA_ethNodes.Get(i));
-    NodeContainer STA_rightNodePair = NodeContainer(STA_mmWaveNodes.Get(2*i+1), STA_ethNodes.Get(i));
-    STA_NodePair.push_back(STA_leftNodePair);
-    STA_NodePair.push_back(STA_rightNodePair);
+    rightSTA_wifiDevice.Add (wifi.Install (wifiPhy_64800, right_WifiMac, STA_wifiNodes.Get (i)));
+    std::cout << "STA " << i << " mac address: " << rightSTA_wifiDevice.Get (i)->GetAddress () << endl;
   }
-  cout << "STA_NodePair has been created, size: " << STA_NodePair.size() << endl<<  endl;
-
-  // 設定 STAs 內部的 p2p 參數
-  PointToPointHelper p2pInSTA_helper;
-  p2pInSTA_helper.SetDeviceAttribute ("DataRate", StringValue ("5Gbps"));
-  p2pInSTA_helper.SetChannelAttribute ("Delay", TimeValue (MicroSeconds (0.1)));
-  p2pInSTA_helper.SetQueue ("ns3::DropTailQueue", "MaxSize", StringValue ("4294967295p"));
-
-  // 安裝 STAs 內部的 p2p 連接
-  NetDeviceContainer p2pInSTA_devices_left;
-  NetDeviceContainer p2pInSTA_devices_right;
-
-  for (uint32_t i = 0; i < STA_NodePair.size(); i++) {
-    if (i % 2 == 0) {
-      p2pInSTA_devices_left.Add (p2pInSTA_helper.Install (STA_NodePair[i]));
-    }
-    else {
-      p2pInSTA_devices_right.Add (p2pInSTA_helper.Install (STA_NodePair[i]));
-    }
-  }
-    cout << "p2pInSTA_devices_left has been created" << p2pInSTA_devices_left.GetN() << endl;
-    cout << "p2pInSTA_devices_right has been created" << p2pInSTA_devices_right.GetN() << endl;
-
 
   /* Setting mobility model */
   MobilityHelper mobility;
   Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator> ();
-  positionAlloc->Add (Vector (-1.0, 0.0, 5.0));   /* DMG PCP/AP */
-  positionAlloc->Add (Vector (1.0, 0.0, 5.0));   /* DMG PCP/AP */
-  
-  // Position of STA_ethNodes
-  for (uint32_t i = 0; i < STA_ethNodes.GetN(); i++) {
-    if (i == 0)
-      // positionAlloc->Add (Vector (-1.0, -1.0, 0.0));   /* DMG STA0*/
-      positionAlloc->Add (Vector (0.0, -1.0, 0.0));   /* DMG STA0*/
-    else
-      positionAlloc->Add (Vector (0.0, -1.0, 0.0));   /* DMG STA i_th*/
+  if (random_walk){
+    positionAlloc->Add (Vector (-1.0, 0.0, 5.0));   /* DMG PCP/AP */
+    positionAlloc->Add (Vector (1.0, 0.0, 5.0));   /* DMG PCP/AP */
+  }
+  else{
+    positionAlloc->Add (Vector (-1.0, 1.0, 5.0));   /* DMG PCP/AP */
+    positionAlloc->Add (Vector (1.0, 1.0, 5.0));   /* DMG PCP/AP */
   }
   
-  // Position of STA_mmWaveNodes
-  for (uint32_t i = 0; i < STA_mmWaveNodes.GetN(); i+=2) {
+  // Position of STA_etherNodes
+  for (uint32_t i = 0; i < STA_etherNodes.GetN(); i++) {
     if (i == 0){
-      // positionAlloc->Add (Vector (-1.0, -1.0, 0.0));   /* DMG STA0*/
-      // positionAlloc->Add (Vector (-1.0, -1.0, 0.0));   /* DMG STA0*/
-      positionAlloc->Add (Vector (0.0, -1.0, 0.0));   /* DMG STA0*/
-      positionAlloc->Add (Vector (0.0, -1.0, 0.0));   /* DMG STA0*/
+      positionAlloc->Add (Vector (-1.0, 0.0, 0.0));   /* DMG STA0*/
     }
     else{
-      positionAlloc->Add (Vector (0.0, -1.0, 0.0));   /* DMG STA i_th*/
-      positionAlloc->Add (Vector (0.0, -1.0, 0.0));   /* DMG STA i_th*/
+      positionAlloc->Add (Vector (0.0, 0.0, 0.0));   /* DMG STA i_th*/
     }
   }
+  // Position of STA_wifiNodes
+  for (uint32_t i = 0; i < STA_wifiNodes.GetN(); i++) {
+    if (i == 0){
+      positionAlloc->Add (Vector (0.0, 0.0, 0.0));   /* DMG STA0*/
+    }
+    else{
+      positionAlloc->Add (Vector (0.0, 0.0, 0.0));   /* DMG STA i_th*/
+    }
+  }
+
 
   mobility.SetPositionAllocator (positionAlloc);
   mobility.SetMobilityModel ("ns3::ConstantVelocityMobilityModel");
-  mobility.Install (AP_Nodes); //APs
-  mobility.Install (STA_ethNodes); //STAs
-  mobility.Install (STA_mmWaveNodes); //mmWave STAs
+  mobility.Install (AP_wifiNodes); //APs
+  mobility.Install (STA_etherNodes); //STAs
+  if (random_walk){
+    mobility.SetMobilityModel ("ns3::RandomWalk2dMobilityModel",
+                             "Mode", StringValue ("Time"),
+                             "Time", StringValue ("1s"),
+                             "Speed", StringValue ("ns3::ConstantRandomVariable[Constant=0.0]"),
+                             "Bounds", StringValue ("-1.0|1.0|-1.0|1.0"));
+  }
+  mobility.Install (STA_wifiNodes); //STAs
+  
+  //STAs 不使用隨機移動時的固定移動設定
+  if (!random_walk){
+    Ptr<ConstantVelocityMobilityModel> sta0_mobility = STA_wifiNodes.Get (0)->GetObject<ConstantVelocityMobilityModel>();
+    Ptr<ConstantVelocityMobilityModel> sta1_mobility = STA_wifiNodes.Get (1)->GetObject<ConstantVelocityMobilityModel>();
+
+    //STA0 的移動
+    Simulator::Schedule (Seconds (2.1), &ConstantVelocityMobilityModel::SetVelocity, sta0_mobility, Vector(vel, 0.0, 0.0));
+    Simulator::Schedule (Seconds (6.1), &ConstantVelocityMobilityModel::SetVelocity, sta0_mobility, Vector(-vel, 0.0, 0.0));
+    Simulator::Schedule (Seconds (14.1), &ConstantVelocityMobilityModel::SetVelocity, sta0_mobility, Vector(vel, 0.0, 0.0));
+    Simulator::Schedule (Seconds (18.1), &ConstantVelocityMobilityModel::SetVelocity, sta0_mobility, Vector(0.0, 0.0, 0.0));
+
+    //STA1 的移動
+    // Simulator::Schedule (Seconds (4.1), &ConstantVelocityMobilityModel::SetVelocity, sta1_mobility, Vector(-vel, 0.0, 0.0));
+    // Simulator::Schedule (Seconds (8.1), &ConstantVelocityMobilityModel::SetVelocity, sta1_mobility, Vector(vel, 0.0, 0.0));
+    // Simulator::Schedule (Seconds (16.1), &ConstantVelocityMobilityModel::SetVelocity, sta1_mobility, Vector(-vel, 0.0, 0.0));
+    // Simulator::Schedule (Seconds (20.1), &ConstantVelocityMobilityModel::SetVelocity, sta1_mobility, Vector(0.0, 0.0, 0.0));
+  }
   
   //STA0's mobility model
-  
-  // std::vector<Ptr<ConstantVelocityMobilityModel>> sta0_mobility;
-  // sta0_mobility.push_back(STA_ethNodes.Get (0)->GetObject<ConstantVelocityMobilityModel>());
-  // sta0_mobility.push_back(STA_mmWaveNodes.Get (0)->GetObject<ConstantVelocityMobilityModel>());
-  // sta0_mobility.push_back(STA_mmWaveNodes.Get (1)->GetObject<ConstantVelocityMobilityModel>());
+  for (uint32_t i = 0; i < STA_wifiNodes.GetN(); i++) {
+    string filename = file_dir + "position_STA_" + to_string(i) + ".csv";
+    ofstream file(filename, ios::out);
+    file << "Time [s],X [m],Y [m]" << endl;
+    file.close();
+    Simulator::Schedule (Seconds (0.1), &print_position, STA_wifiNodes.Get (i),i,filename);
+  }
+  if (random_walk){
+    Simulator::Schedule (Seconds (2.1), &start_random_walk, STA_wifiNodes.Get (0));
+  }
 
-  cout << "position of STA0's right mmwave: " << STA_mmWaveNodes.Get (1)->GetObject<ConstantVelocityMobilityModel>()->GetPosition () << endl;
-  cout << "position of STA0's left mmwave: " << STA_mmWaveNodes.Get (0)->GetObject<ConstantVelocityMobilityModel>()->GetPosition () << endl;
-  cout << "position of STA0's eth: " << STA_ethNodes.Get (0)->GetObject<ConstantVelocityMobilityModel>()->GetPosition () << endl;
-
-  Ptr<ConstantVelocityMobilityModel> ap_left_mobility = AP_Nodes.Get (0)->GetObject<ConstantVelocityMobilityModel>();
-  Ptr<ConstantVelocityMobilityModel> ap_right_mobility = AP_Nodes.Get (1)->GetObject<ConstantVelocityMobilityModel>();
+  Ptr<ConstantVelocityMobilityModel> ap_left_mobility = AP_wifiNodes.Get (0)->GetObject<ConstantVelocityMobilityModel>();
+  Ptr<ConstantVelocityMobilityModel> ap_right_mobility = AP_wifiNodes.Get (1)->GetObject<ConstantVelocityMobilityModel>();
   cout << "position of left AP: " << ap_left_mobility->GetPosition () << endl;
   cout << "position of right AP: " << ap_right_mobility->GetPosition () << endl;
   
-  
-  if (circle)
-  {
-    Simulator::Schedule (Seconds (3.1), &CircleMoving, leftAp, STA_ethNodes.Get(0), vel);
-    Simulator::Schedule (Seconds (3.1), &CircleMoving, leftAp, STA_mmWaveNodes.Get(0), vel);
-    Simulator::Schedule (Seconds (3.1), &CircleMoving, leftAp, STA_mmWaveNodes.Get(1), vel);
-  }
   // else 
   // {
   //   for (uint32_t i = 0; i < sta0_mobility.size(); i++) {
@@ -654,27 +707,29 @@ main (int argc, char *argv[])
 
   /* Internet stack*/
   InternetStackHelper stack;
-  stack.Install (AP_Nodes);
-  stack.Install (STA_ethNodes);
-  stack.Install (STA_mmWaveNodes);
-
-  Ipv4AddressHelper address;
-  Ipv4InterfaceContainer apInterfaces;
-  Ipv4InterfaceContainer STA_LeftInterfaces;
-  Ipv4InterfaceContainer STA_RightInterfaces;
-  Ipv4InterfaceContainer STA_ethInterfaces;
-
+  stack.Install (AP_wifiNodes);
+  stack.Install (STA_wifiNodes);
+  stack.Install (STA_etherNodes);
   // 先分配 AP 和 mmWave 的連接
-  address.SetBase ("10.1.1.0", "255.255.255.0");
-  apInterfaces.Add (address.Assign (apDevice.Get(0)));
-  STA_LeftInterfaces = address.Assign (STA_LeftDevices);
-  address.SetBase ("10.1.2.0", "255.255.255.0");
-  apInterfaces.Add (address.Assign (apDevice.Get(1)));
-  STA_RightInterfaces = address.Assign (STA_RightDevices);
-  address.SetBase ("10.1.3.0", "255.255.255.0");
-  STA_ethInterfaces = address.Assign (p2pInSTA_devices_left);
-  STA_ethInterfaces.Add (address.Assign (p2pInSTA_devices_right));
+  Ipv4AddressHelper address;
+  address.SetBase ("10.1.4.0", "255.255.255.0");
+  Ipv4InterfaceContainer ap_leftInterfaces;
+  ap_leftInterfaces.Add (address.Assign (ap_wifiDevice.Get(0)));
+  Ipv4InterfaceContainer STA_LeftInterfaces;
+  STA_LeftInterfaces = address.Assign (leftSTA_wifiDevice);
   
+  address.SetBase ("10.1.5.0", "255.255.255.0");
+  Ipv4InterfaceContainer ap_rightInterfaces;
+  ap_rightInterfaces.Add (address.Assign (ap_wifiDevice.Get(1)));
+  Ipv4InterfaceContainer STA_RightInterfaces;
+  STA_RightInterfaces = address.Assign (rightSTA_wifiDevice);
+  
+  address.SetBase ("10.1.6.0", "255.255.255.0");
+  Ipv4InterfaceContainer leftSTA_p2pInterfaces;
+  leftSTA_p2pInterfaces = address.Assign (leftSTA_p2p_devices);
+  address.SetBase ("10.1.7.0", "255.255.255.0");
+  Ipv4InterfaceContainer rightSTA_p2pInterfaces;
+  rightSTA_p2pInterfaces = address.Assign (rightSTA_p2p_devices);
 
   for (uint32_t i = 0; i < STA_LeftInterfaces.GetN(); i++) {
     cout << "STA " << i << " Left mmWave IP: " << STA_LeftInterfaces.GetAddress (i) << endl;
@@ -682,9 +737,15 @@ main (int argc, char *argv[])
   for (uint32_t i = 0; i < STA_RightInterfaces.GetN(); i++) {
     cout << "STA " << i << " Right mmWave IP: " << STA_RightInterfaces.GetAddress (i) << endl;
   } 
-  for (uint32_t i = 0; i < STA_ethInterfaces.GetN(); i++) {
-    cout << "STA " << i << " eth IP: " << STA_ethInterfaces.GetAddress (i) << endl;
+  for (uint32_t i = 0; i < leftSTA_p2pInterfaces.GetN()/2; i++) {
+    cout << "STA wifiNode " << i << " Left p2p IP: " << leftSTA_p2pInterfaces.GetAddress (2*i) << endl;
+    cout << "STA etherNode " << i << " Left p2p IP: " << leftSTA_p2pInterfaces.GetAddress (2*i+1) << endl;
   }
+  for (uint32_t i = 0; i < rightSTA_p2pInterfaces.GetN()/2; i++) {
+    cout << "STA wifiNode " << i << " Right p2p IP: " << rightSTA_p2pInterfaces.GetAddress (2*i) << endl;
+    cout << "STA etherNode " << i << " Right p2p IP: " << rightSTA_p2pInterfaces.GetAddress (2*i+1) << endl;
+  }
+  
   cout << "IP has been assigned" << endl;
   
   cout << "NodeList::GetNNodes(): " << NodeList::GetNNodes() << endl;
@@ -692,19 +753,19 @@ main (int argc, char *argv[])
   
   // 在 PopulateRoutingTables 之前調用
   std::cout << "\n=== AP Nodes Interfaces ===" << std::endl;
-  for (uint32_t i = 0; i < AP_Nodes.GetN(); i++) {
-      PrintInterfaceInfo(AP_Nodes.Get(i));
+  for (uint32_t i = 0; i <AP_wifiNodes.GetN(); i++) {
+      PrintInterfaceInfo(AP_wifiNodes.Get(i));
   }
 
   std::cout << "\n=== mmWave Nodes Interfaces ===" << std::endl;
-  for (uint32_t i = 0; i < STA_mmWaveNodes.GetN(); i++) {
-      PrintInterfaceInfo(STA_mmWaveNodes.Get(i));
+  for (uint32_t i = 0; i < STA_wifiNodes.GetN(); i++) {
+      PrintInterfaceInfo(STA_wifiNodes.Get(i));
   }
 
-  std::cout << "\n=== UE Nodes Interfaces ===" << std::endl;
-  for (uint32_t i = 0; i < STA_ethNodes.GetN(); i++) {
-      PrintInterfaceInfo(STA_ethNodes.Get(i));
-  }
+  // std::cout << "\n=== UE Nodes Interfaces ===" << std::endl;
+  // for (uint32_t i = 0; i < STA_ethNodes.GetN(); i++) {
+  //     PrintInterfaceInfo(STA_ethNodes.Get(i));
+  // }
   
 
   /* Populate routing table */
@@ -720,8 +781,9 @@ main (int argc, char *argv[])
       /* Install Simple UDP Server on the DMG AP */
       
 
-      left_apps = new_InstallPacketSink(dataRate, leftAp, STA_ethNodes , STA_ethInterfaces, socketType, simulationTime);
-      right_apps = new_InstallPacketSink(dataRate, rightAp, STA_ethNodes , STA_ethInterfaces, socketType, simulationTime);
+      left_apps = new_InstallPacketSink(dataRate, leftAPWifi_node, STA_etherNodes , leftSTA_p2pInterfaces, socketType, simulationTime);
+      right_apps = new_InstallPacketSink(dataRate, rightAPWifi_node, STA_etherNodes , rightSTA_p2pInterfaces, socketType, simulationTime);
+      // right_apps = new_InstallPacketSink(dataRate, rightAPWifi_node, rightSTA_nodes , STA_RightInterfaces, socketType, simulationTime);
       cout << "Packet sink has been installed" << endl;      
     }
   // return 0; // 安裝 app 相關設定檢查點
@@ -748,20 +810,24 @@ main (int argc, char *argv[])
   /* Enable Traces */
   if (pcapTracing)
     {
-      wifiPhy.SetPcapDataLinkType (YansWifiPhyHelper::DLT_IEEE802_11_RADIO);
-      wifiPhy.EnablePcap ("Traces/AccessPoint_"+comment, apDevice, false);
-      wifiPhy.EnablePcap ("Traces/StaNode_"+comment, STA_LeftDevices, false);
-      wifiPhy.EnablePcap ("Traces/StaNode_"+comment, STA_RightDevices, false);
+      wifiPhy_60480.SetPcapDataLinkType (YansWifiPhyHelper::DLT_IEEE802_11_RADIO);
+      wifiPhy_60480.EnablePcap ("Traces/AccessPoint_left", ap_wifiDevice.Get(0), false);
+      wifiPhy_60480.EnablePcap ("Traces/StaNode_left", leftSTA_wifiDevice, false);
+
+      wifiPhy_64800.SetPcapDataLinkType (YansWifiPhyHelper::DLT_IEEE802_11_RADIO);
+      wifiPhy_64800.EnablePcap ("Traces/AccessPoint_right", ap_wifiDevice.Get(1), false);
+      wifiPhy_64800.EnablePcap ("Traces/StaNode_right", rightSTA_wifiDevice, false);
+      
     }
   // return 0; // 安裝 pcap 相關設定檢查點
   /* Stations */
-  Ptr<WifiNetDevice> apWifiNetDevice_left = StaticCast<WifiNetDevice> (apDevice.Get (0));
-  Ptr<WifiNetDevice> apWifiNetDevice_right = StaticCast<WifiNetDevice> (apDevice.Get (1));
+  Ptr<WifiNetDevice> apWifiNetDevice_left = StaticCast<WifiNetDevice> (ap_wifiDevice.Get (0));
+  Ptr<WifiNetDevice> apWifiNetDevice_right = StaticCast<WifiNetDevice> (ap_wifiDevice.Get (1));
   Ptr<WifiNetDevice> staWifiNetDevice_left[user_num];
   Ptr<WifiNetDevice> staWifiNetDevice_right[user_num];
   for (int i = 0; i < user_num; i++) {
-    staWifiNetDevice_left[i] = StaticCast<WifiNetDevice> (STA_LeftDevices.Get (i));
-    staWifiNetDevice_right[i] = StaticCast<WifiNetDevice> (STA_RightDevices.Get (i));
+    staWifiNetDevice_left[i] = StaticCast<WifiNetDevice> (leftSTA_wifiDevice.Get (i));
+    staWifiNetDevice_right[i] = StaticCast<WifiNetDevice> (rightSTA_wifiDevice.Get (i));
   }
 
   apWifiMac_left = StaticCast<DmgApWifiMac> (apWifiNetDevice_left->GetMac ());
@@ -783,6 +849,10 @@ main (int argc, char *argv[])
   // for (int i = 0; i < user_num; i++) {
   //   staWifiMac[i]->TraceConnectWithoutContext ("SLSCompleted", MakeBoundCallback (&SLSCompleted, staWifiMac[i]));
   // }
+  for (int i = 0; i < user_num; i++) {
+    staWifiMac_left[i]->TraceConnectWithoutContext ("SLSCompleted", MakeBoundCallback (&SLSCompleted, staWifiMac_left[i]));
+    staWifiMac_right[i]->TraceConnectWithoutContext ("SLSCompleted", MakeBoundCallback (&SLSCompleted, staWifiMac_right[i]));
+  }
 
 
   apWifiMac_left->GetCodebook ()->TraceConnectWithoutContext ("ActiveTxSectorID", MakeBoundCallback (&ActiveTxSectorIDChanged, apWifiMac_left));
@@ -793,17 +863,22 @@ main (int argc, char *argv[])
     staWifiMac_right[i]->GetCodebook ()->TraceConnectWithoutContext ("ActiveTxSectorID", MakeBoundCallback (&ActiveTxSectorIDChanged, staWifiMac_right[i]));
   }
 
+  //撤定額外  mcs
+  Ptr<WifiRemoteStationManager> manager = staWifiMac_left[0]->GetWifiRemoteStationManager();
+  manager->AddSupportedMcs (staWifiMac_left[0]->GetAddress(), WifiMode("EDMG_OFDM_MCS4"));
   FlowMonitorHelper flowmon;
   if (activateApp)
     {
       /* Install FlowMonitor on all nodes */
-      monitor = flowmon.Install (allmmWaveNodes);
+      monitor = flowmon.Install (allwifiNodes);
 
       /* Schedule Throughput Calulcations */
       string filename = file_dir + "arp_cache_left.txt";
-      Simulator::Schedule (Seconds (1.0), &new_CreateFile, file_dir, user_num);
-      Simulator::Schedule (Seconds (2.1), &left_new_CalculateThroughput, file_dir,leftAp,STA_ethNodes,left_apps,staWifiMac_left,true);
-      Simulator::Schedule (Seconds (2.1), &right_new_CalculateThroughput, file_dir,rightAp,STA_ethNodes,right_apps,staWifiMac_right,false);
+      Simulator::Schedule (Seconds (0.0), &new_CreateFile, file_dir, user_num);
+      string retrain_str = RT_enable ? "enabled" : "disabled";
+      cout << "CHECK retrain is " << retrain_str << endl;
+      Simulator::Schedule (Seconds (0.1), &left_new_CalculateThroughput, file_dir,leftAPWifi_node,STA_etherNodes,left_apps,staWifiMac_left,true);
+      Simulator::Schedule (Seconds (0.1), &right_new_CalculateThroughput, file_dir,rightAPWifi_node,STA_etherNodes,right_apps,staWifiMac_right,false);
     }
   /* Schedule many TXSS CBAPs during the data transmission interval. */
   

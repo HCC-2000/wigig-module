@@ -1700,9 +1700,10 @@ DmgWifiMac::PrintSnrTable (void)
     }
 }
 
-std::pair<double, uint16_t>
+std::tuple<double, uint16_t, uint16_t>
 DmgWifiMac::HCC_PrintSnrConfiguration (SNR_MAP &snrMap, std::string snrFileName)
 {
+  uint16_t active_sector = m_codebook->GetActiveTxSectorID();
   std::ofstream snrFile (snrFileName, std::ios::app);
   double max_snr = -200;
   uint16_t max_sector = 0;
@@ -1728,17 +1729,18 @@ DmgWifiMac::HCC_PrintSnrConfiguration (SNR_MAP &snrMap, std::string snrFileName)
               max_sector = static_cast<uint16_t>(std::get<2> (config));
             }
         }
+      snrFile << ", Active SectorID=" << active_sector << std::endl << std::endl;
     }
   snrFile.close();
-  return std::make_pair(max_snr, max_sector);
+  return std::make_tuple(max_snr, max_sector, active_sector);
   
 }
 
 
-std::pair<double, uint16_t>
+std::tuple<double, uint16_t, uint16_t>
 DmgWifiMac::HCC_PrintSnrTable (std::string snrFileName)
 {
-  std::pair<double, uint16_t> max_snr_sector;
+  std::tuple<double, uint16_t,uint16_t> max_snr_sector;
   for (STATION_SNR_PAIR_MAP_CI it = m_stationSnrMap.begin (); it != m_stationSnrMap.end (); it++)
     {
       SNR_PAIR snrPair = it->second;

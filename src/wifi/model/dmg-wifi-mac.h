@@ -413,7 +413,7 @@ public:
   /**
    * HCC function: Print SNR Table for each station that we did sectcor level sweeping with.
    */
-  std::pair<double, uint16_t> HCC_PrintSnrTable (std::string snrFileName);
+  std::tuple<double, uint16_t, uint16_t> HCC_PrintSnrTable (std::string snrFileName);
   /**
    * Print Beam Refinement Measurements for each device.
    */
@@ -1288,7 +1288,7 @@ protected:
    * \param snrMap The SNR Map
    * \param snrFileName The file name that determimne in func: HCC_PrintSnrTable.
    */
-  std::pair<double, uint16_t> HCC_PrintSnrConfiguration (SNR_MAP &snrMap, std::string snrFileName);
+  std::tuple<double, uint16_t, uint16_t> HCC_PrintSnrConfiguration (SNR_MAP &snrMap, std::string snrFileName);
   /**
    * Obtain antenna configuration for the highest received SNR to feed it back
    * \param stationAddress The MAC address of the station.
