@@ -33,7 +33,6 @@ using namespace std;
 
 double vel = 1.0;
 
-bool RT_enable = false;
 
 
 
@@ -131,13 +130,13 @@ new_InstallPacketSink(string dataRate,Ptr<Node> apNode ,NodeContainer STA_etherN
   PacketSinkHelper sinkHelper (socketType, InetSocketAddress (Ipv4Address::GetAny (), port));
   cout << "GetAny = " << Ipv4Address::GetAny () << endl;
   for (uint32_t i = 0; i < STA_etherNodes.GetN(); i++) {
-    sinkApps.Add (sinkHelper.Install (STA_etherNodes.Get(i))); // Stas Node 是從 1 開始, 為了跳過代表 AP 的 0.
+    sinkApps.Add (sinkHelper.Install (STA_etherNodes.Get(i))); 
     sinkApps.Start (Seconds (0.0));
     sinkApps.Stop (Seconds (simulationTime));
   }
   cout << "?????" << endl;
   for (uint32_t i = 0; i < STA_etherNodes.GetN(); i++) {
-    OnOffHelper src (socketType, InetSocketAddress (STA_ethInterface.GetAddress (i*2+1), port));
+    OnOffHelper src (socketType, InetSocketAddress (STA_ethInterface.GetAddress (i*2+1), port)); //因為 ethInterface 包含了兩對 STAWifiNode 到 STA_etherNodes 的 interface
     cout << "Destination IP: " << STA_ethInterface.GetAddress (i*2+1) << endl;
     cout << "Destination Port: " << port << endl;
     src.SetAttribute ("MaxPackets", UintegerValue (0));
@@ -155,105 +154,260 @@ new_InstallPacketSink(string dataRate,Ptr<Node> apNode ,NodeContainer STA_etherN
 }
 
 /*要有 node 計算角度, 要有 apps 計算 throughput, 要有 mac interface 計算 snr*/
-void
-left_new_CalculateThroughput (string file_dir, Ptr<Node> apNode, NodeContainer STA_etherNodes, std::pair<ApplicationContainer, ApplicationContainer> apps ,std::vector<Ptr<DmgStaWifiMac>> staWifiMac, bool left)
-{
-  int ue_num = staWifiMac.size();
-  static std::vector<double> thr(ue_num, 0);
-  static std::vector<uint64_t> totalRx(ue_num, 0);
-  static std::vector<double> throughput(ue_num, 0);
-  static std::vector<double> max_snr(ue_num, 0);
-  string left_or_right = left ? "left" : "right";
-  for (int i = 0; i < ue_num; i++) {
-    string file_name;
-    string snrFileName;
-    ApplicationContainer temp_appcon = apps.first.Get(i);
-    Ptr<PacketSink> temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
+// void
+// left_new_CalculateThroughput (string file_dir, Ptr<Node> apNode, NodeContainer STA_etherNodes, std::pair<ApplicationContainer, ApplicationContainer> apps ,std::vector<Ptr<DmgStaWifiMac>> staWifiMac, bool left)
+// {
+//   int ue_num = staWifiMac.size();
+//   static std::vector<double> thr(ue_num, 0);
+//   static std::vector<uint64_t> totalRx(ue_num, 0);
+//   static std::vector<double> throughput(ue_num, 0);
+//   static std::vector<double> max_snr(ue_num, 0);
+//   string left_or_right = left ? "left" : "right";
+//   for (int i = 0; i < ue_num; i++) {
+//     string file_name;
+//     string snrFileName;
+//     ApplicationContainer temp_appcon = apps.first.Get(i);
+//     Ptr<PacketSink> temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
     
-    file_name = file_dir + "STA_" + to_string(i) + "_" + left_or_right + ".csv";
-    snrFileName = file_dir + "STA_" + to_string(i) + "_" + left_or_right + "_snr.txt";
+//     file_name = file_dir + "STA_" + to_string(i) + "_" + left_or_right + ".csv";
+//     snrFileName = file_dir + "STA_" + to_string(i) + "_" + left_or_right + "_snr.txt";
 
-    ofstream file(file_name, ios::app);
-    Ptr<Node> staNode = STA_etherNodes.Get (i);
-    thr[i] = CalculateSingleStreamThroughput (temp_sink, totalRx[i], throughput[i]);
-    std::tuple<double, uint16_t, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
-    max_snr[i] = std::get<0>(max_snr_sector);
-    uint16_t max_sector = std::get<1>(max_snr_sector);
-    uint16_t active_sector = std::get<2>(max_snr_sector);
-    // if (max_snr[i] < 6 && RT_enable==true && thr[i]==0) staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac->GetAddress ());
-    if (RT_enable && active_sector!=max_sector) {
-      staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_left->GetAddress ());
-      std::cout << "STA " << i << "left performs TXSS TXOP" << endl;
-    }
-    double angle = CalculateAngle(staNode, apNode); 
-    file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << "," << active_sector << endl;
-    file.close();
-  }
+//     ofstream file(file_name, ios::app);
+//     Ptr<Node> staNode = STA_etherNodes.Get (i);
+//     thr[i] = CalculateSingleStreamThroughput (temp_sink, totalRx[i], throughput[i]);
+//     std::tuple<double, uint16_t, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
+//     max_snr[i] = std::get<0>(max_snr_sector);
+//     uint16_t max_sector = std::get<1>(max_snr_sector);
+//     uint16_t active_sector = std::get<2>(max_snr_sector);
+//     // if (max_snr[i] < 6 && RT_enable==true && thr[i]==0) staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac->GetAddress ());
+//     if (RT_enable && active_sector!=max_sector) {
+//       staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_left->GetAddress ());
+//       std::cout << "STA " << i << "left performs TXSS TXOP" << endl;
+//     }
+//     double angle = CalculateAngle(staNode, apNode); 
+//     file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << "," << active_sector << endl;
+//     file.close();
+//   }
 
-  string allThrFileName = file_dir + left_or_right + "_all_thr.csv";
-  ofstream allThrFile(allThrFileName, ios::app);
-  allThrFile << Simulator::Now ().GetSeconds ();
-  double total_stas_thr =0;
-  for (int i = 0; i < ue_num; i++) {
-    if (i != 0) {
-      total_stas_thr += thr[i];
-    }
-    allThrFile << "," << thr[i]<<","<<max_snr[i];
-  }
-  allThrFile << "," << total_stas_thr << std::endl;
-  allThrFile.close();
-  Simulator::Schedule (MilliSeconds (100), &left_new_CalculateThroughput, file_dir, apNode, STA_etherNodes, apps, staWifiMac, left);
-}
+//   string allThrFileName = file_dir + left_or_right + "_all_thr.csv";
+//   ofstream allThrFile(allThrFileName, ios::app);
+//   allThrFile << Simulator::Now ().GetSeconds ();
+//   double total_stas_thr =0;
+//   for (int i = 0; i < ue_num; i++) {
+//     if (i != 0) {
+//       total_stas_thr += thr[i];
+//     }
+//     allThrFile << "," << thr[i]<<","<<max_snr[i];
+//   }
+//   allThrFile << "," << total_stas_thr << std::endl;
+//   allThrFile.close();
+//   Simulator::Schedule (MilliSeconds (100), &left_new_CalculateThroughput, file_dir, apNode, STA_etherNodes, apps, staWifiMac, left);
+// }
 
-void
-right_new_CalculateThroughput (string file_dir, Ptr<Node> apNode, NodeContainer STA_etherNodes, std::pair<ApplicationContainer, ApplicationContainer> apps ,std::vector<Ptr<DmgStaWifiMac>> staWifiMac, bool left)
-{
-  int ue_num = staWifiMac.size();
-  static std::vector<double> thr(ue_num, 0);
-  static std::vector<uint64_t> totalRx(ue_num, 0);
-  static std::vector<double> throughput(ue_num, 0);
-  static std::vector<double> max_snr(ue_num, 0);
-  string left_or_right = left ? "left" : "right";
-  for (int i = 0; i < ue_num; i++) {
-    string file_name;
-    string snrFileName;
-    ApplicationContainer temp_appcon = apps.first.Get(i);
-    Ptr<PacketSink> temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
+// void
+// new_CalculateThroughput (string file_dir, Ptr<Node> apNode, NodeContainer STA_etherNodes, std::pair<ApplicationContainer, ApplicationContainer> apps ,std::vector<Ptr<DmgStaWifiMac>> staWifiMac, bool left)
+// {
+//   int ue_num = staWifiMac.size();
+//   static std::vector<double> thr(ue_num, 0);
+//   static std::vector<uint64_t> totalRx(ue_num, 0);
+//   static std::vector<double> throughput(ue_num, 0);
+//   static std::vector<double> max_snr(ue_num, 0);
+//   string left_or_right = left ? "left" : "right";
+//   for (int i = 0; i < ue_num; i++) {
+//     string file_name;
+//     string snrFileName;
+//     ApplicationContainer temp_appcon = apps.first.Get(i);
+//     Ptr<PacketSink> temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
     
-    file_name = file_dir + "STA_" + to_string(i) + "_" + left_or_right + ".csv";
-    snrFileName = file_dir + "STA_" + to_string(i) + "_" + left_or_right + "_snr.txt";
+//     file_name = file_dir + "STA_" + to_string(i) + "_" + left_or_right + ".csv";
+//     snrFileName = file_dir + "STA_" + to_string(i) + "_" + left_or_right + "_snr.txt";
 
-    ofstream file(file_name, ios::app);
-    Ptr<Node> staNode = STA_etherNodes.Get (i);
-    thr[i] = CalculateSingleStreamThroughput (temp_sink, totalRx[i], throughput[i]);
-    std::tuple<double, uint16_t, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
-    max_snr[i] = std::get<0>(max_snr_sector);
-    uint16_t max_sector = std::get<1>(max_snr_sector);
-    uint16_t active_sector = std::get<2>(max_snr_sector);
-    // if (max_snr[i] < 6 && RT_enable==true && thr[i]==0) staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac->GetAddress ());
-    if (max_snr[i] < 6 && RT_enable && abs(active_sector-max_sector)!=4) {
-      staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_right->GetAddress ());
-      std::cout << "STA " << i << "right performs TXSS TXOP" << endl;
-    }
-    double angle = CalculateAngle(staNode, apNode); 
-    file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << "," << active_sector << endl;
-    file.close();
-  }
+//     ofstream file(file_name, ios::app);
+//     Ptr<Node> staNode = STA_etherNodes.Get (i);
+//     thr[i] = CalculateSingleStreamThroughput (temp_sink, totalRx[i], throughput[i]);
+//     std::tuple<double, uint16_t, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
+//     max_snr[i] = std::get<0>(max_snr_sector);
+//     uint16_t max_sector = std::get<1>(max_snr_sector);
+//     uint16_t active_sector = std::get<2>(max_snr_sector);
+//     // if (max_snr[i] < 6 && RT_enable==true && thr[i]==0) staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac->GetAddress ());
+//     if (max_snr[i] < 6 && RT_enable && abs(active_sector-max_sector)!=4) {
+//       if (left_or_right == "left") {
+//         staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_left->GetAddress ());
+//         std::cout << "STA " << i << "left performs TXSS TXOP" << endl;
+//       }
+//       else {
+//         staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_right->GetAddress ());
+//         std::cout << "STA " << i << "right performs TXSS TXOP" << endl;
+//       }
+//       double angle = CalculateAngle(staNode, apNode); 
+//       file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << "," << active_sector << endl;
+//       file.close();
+//     }
+//   }
+//   string allThrFileName = file_dir + left_or_right + "_all_thr.csv";
+//   ofstream allThrFile(allThrFileName, ios::app);
+//   allThrFile << Simulator::Now ().GetSeconds ();
+//   double total_stas_thr =0;
+//   for (int i = 0; i < ue_num; i++) {
+//     if (i != 0) {
+//       total_stas_thr += thr[i];
+//     }
+//     allThrFile << "," << thr[i]<<","<<max_snr[i];
+//   }
+//   allThrFile << "," << total_stas_thr << std::endl;
+//   allThrFile.close();
+//   Simulator::Schedule (MilliSeconds (100), &new_CalculateThroughput, file_dir, apNode, STA_etherNodes, apps, staWifiMac, left);
+// }
 
-  string allThrFileName = file_dir + left_or_right + "_all_thr.csv";
-  ofstream allThrFile(allThrFileName, ios::app);
-  allThrFile << Simulator::Now ().GetSeconds ();
-  double total_stas_thr =0;
-  for (int i = 0; i < ue_num; i++) {
-    if (i != 0) {
-      total_stas_thr += thr[i];
+class ThroughputCalculator{
+  private: 
+    uint32_t ue_num;
+    bool RT_flag;
+    std::vector<double> thr;
+    std::vector<uint64_t> totalRx;
+    std::vector<double> throughput;
+    std::vector<double> max_snr;
+
+  public:
+    // 輸入 STA 節點, 透過 nodes 數量初始化 Class
+    ThroughputCalculator(NodeContainer STA_Nodes, bool RT_enable):
+      ue_num(STA_Nodes.GetN()),
+      RT_flag(RT_enable),
+      thr(ue_num, 0),
+      totalRx(ue_num, 0),    
+      throughput(ue_num, 0),
+      max_snr(ue_num, 0)    
+      {
+        
+      }
+
+    
+
+    void CalculateThroughput (string file_dir,
+                              Ptr<Node> apNode, 
+                              NodeContainer STA_etherNodes, 
+                              std::pair<ApplicationContainer, ApplicationContainer> apps, 
+                              std::vector<Ptr<DmgStaWifiMac>> staWifiMac, 
+                              bool left) {
+      string left_or_right = left ? "left" : "right";
+      for (uint32_t i = 0; i < ue_num; i++) {
+        string file_name;
+        string snrFileName;
+        ApplicationContainer temp_appcon = apps.first.Get(i);
+        Ptr<PacketSink> temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
+        
+        file_name = file_dir + "STA_" + to_string(i) + "_" + left_or_right + ".csv";
+        snrFileName = file_dir + "STA_" + to_string(i) + "_" + left_or_right + "_snr.txt";
+
+        ofstream file(file_name, ios::app);
+        Ptr<Node> staNode = STA_etherNodes.Get (i);
+        thr[i] = CalculateSingleStreamThroughput (temp_sink, totalRx[i], throughput[i]);
+        std::tuple<double, uint16_t, uint16_t> max_snr_sector = staWifiMac[i]->HCC_PrintSnrTable(snrFileName);
+        max_snr[i] = std::get<0>(max_snr_sector);
+        uint16_t max_sector = std::get<1>(max_snr_sector);
+        uint16_t active_sector = std::get<2>(max_snr_sector);
+        
+        // if ((max_snr[i] < 6 || abs(active_sector-max_sector)!=4 ) && RT_enable ) {
+        // if (max_snr[i] < 6 && abs(active_sector-max_sector)!=4 && RT_enable ) {
+        if (abs(active_sector-max_sector)!=4 && RT_flag ) {
+          if (left_or_right == "left") {
+            staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_left->GetAddress ());
+            std::cout << "STA " << i << "left performs TXSS TXOP" << endl;
+          }
+          else {
+            staWifiMac [i]->Perform_TXSS_TXOP (apWifiMac_right->GetAddress ());
+            std::cout << "STA " << i << "right performs TXSS TXOP" << endl;
+          }
+          double angle = CalculateAngle(staNode, apNode); 
+          file << Simulator::Now ().GetSeconds () << "," << thr[i] << "," << max_sector << "," << max_snr[i] << "," << angle << "," << active_sector << endl;
+          file.close();
+        } 
+      }
+      string allThrFileName = file_dir + left_or_right + "_all_thr.csv";
+      ofstream allThrFile(allThrFileName, ios::app);
+      allThrFile << Simulator::Now ().GetSeconds ();
+      double total_stas_thr =0;
+      for (uint32_t i = 0; i < ue_num; i++) {
+        if (i != 0) {
+          total_stas_thr += thr[i];
+        }
+        allThrFile << "," << thr[i]<<","<<max_snr[i];
+      }
+      allThrFile << "," << total_stas_thr << std::endl;
+      allThrFile.close();
+      Simulator::Schedule (MilliSeconds (100), &ThroughputCalculator::CalculateThroughput, this, file_dir, apNode, STA_etherNodes, apps, staWifiMac, left);
     }
-    allThrFile << "," << thr[i]<<","<<max_snr[i];
-  }
-  allThrFile << "," << total_stas_thr << std::endl;
-  allThrFile.close();
-  Simulator::Schedule (MilliSeconds (100), &right_new_CalculateThroughput, file_dir, apNode, STA_etherNodes, apps, staWifiMac, left);
-}
+};
+
+class RttTraceback {
+  private:
+    string rtt_trace_filename;
+
+  public:
+    RttTraceback(string filename):
+      rtt_trace_filename(filename)
+      {
+        std::ofstream dest_file(rtt_trace_filename, ios::out);
+        if (!dest_file.is_open()) {
+          cout << "Failed to open file: " << rtt_trace_filename << endl;
+          return;
+        }
+        else {
+          cout << "File opened successfully: " << rtt_trace_filename << endl;
+          dest_file << "Time [ms],RTT_old,RTT_new" << std::endl;
+          dest_file.close();
+        }
+      }
+
+    void RttTrace(Time oldValue, Time newValue) 
+    {
+      std::ofstream dest_file(rtt_trace_filename, ios::app);
+      if (!dest_file.is_open()) {
+        cout << "Failed to open file: " << rtt_trace_filename << endl;
+      }
+      else {
+        cout << "File opened successfully: " << rtt_trace_filename << endl;
+        dest_file << Simulator::Now ().GetMilliSeconds () << "," << oldValue << "," << newValue << std::endl;
+        dest_file.close();
+        
+      }
+    }
+};
+
+class RtoTraceback {
+  private:
+    string rto_trace_filename;
+
+  public:
+    RtoTraceback(string filename):
+      rto_trace_filename(filename)
+      {
+        std::ofstream dest_file(rto_trace_filename, ios::out);
+        if (!dest_file.is_open()) {
+          cout << "Failed to open file: " << rto_trace_filename << endl;
+          return;
+        }
+        else {
+          cout << "File opened successfully: " << rto_trace_filename << endl;
+          dest_file << "Time [ms],RTO_old,RTO_new" << std::endl;
+          dest_file.close();
+        }
+      }
+
+    void RtoTrace(Time oldValue, Time newValue) 
+    {
+      std::ofstream dest_file(rto_trace_filename, ios::app);
+      if (!dest_file.is_open()) {
+        cout << "Failed to open file: " << rto_trace_filename << endl;
+      }
+      else {
+        cout << "File opened successfully: " << rto_trace_filename << endl;
+        dest_file << Simulator::Now ().GetMilliSeconds () << "," << oldValue << "," << newValue << std::endl;
+        dest_file.close();
+        
+      }
+    }
+};
 
 void 
 new_CreateFile (string file_dir, int ue_num)
@@ -422,7 +576,9 @@ main (int argc, char *argv[])
   string comment;
   bool random_walk = false;
   uint32_t seed = 1;
-  bool mac_retx_enable = true;
+  bool delAck = true;
+  double rto_init = 3;
+  bool RT_enable = true;
   //--------------------------------
   cmd.AddValue ("ue", "The number of STAs", user_num);
   cmd.AddValue ("fileDir", "The directory to store the throughput files", file_dir);
@@ -432,7 +588,8 @@ main (int argc, char *argv[])
   cmd.AddValue ("retrain","Whether to retrain the beamforming or not", RT_enable);
   cmd.AddValue ("random_walk", "Set the moving path as random walk", random_walk);
   cmd.AddValue ("seed", "The seed of the experiment", seed);
-  cmd.AddValue ("mac_retx_enable", "Whether to enable MAC retransmission or not", mac_retx_enable);
+  cmd.AddValue ("delAck", "Whether to enable TCP DelAckCount or not", delAck);
+  cmd.AddValue ("rto_init", "The initial RTO value", rto_init);
   //cmd.AddValue ("applicationType", "Type of the Tx Application: onoff or bulk", applicationType);
   cmd.AddValue ("packetSize", "Application packet size in bytes", packetSize);
   cmd.AddValue ("dataRate", "Application data rate", dataRate);
@@ -450,16 +607,16 @@ main (int argc, char *argv[])
 
   RngSeedManager::SetSeed (seed);
   /* Validate A-MSDU and A-MPDU values */
-  ValidateFrameAggregationAttributes (msduAggSize, mpduAggSize);
+  ValidateFrameAggregationAttributes (msduAggSize, mpduAggSize, WIFI_PHY_STANDARD_80211ay);
   /* Configure RTS/CTS and Fragmentation */
   ConfigureRtsCtsAndFragmenatation (false,0);
   /* Wifi MAC Queue Parameters */
   ChangeQueueSize (queueSize);
 
   /*** Configure TCP Options ***/
-  if (mac_retx_enable)  Config::SetDefault ("ns3::TcpSocket::DelAckCount", UintegerValue (1));
-  
-
+  if (!delAck)  Config::SetDefault ("ns3::TcpSocket::DelAckCount", UintegerValue (1));
+  Config::SetDefault ("ns3::TcpSocketBase::MinRto", TimeValue (Seconds (rto_init)));
+  Config::SetDefault ("ns3::TcpSocket::ConnTimeout", TimeValue (Seconds (rto_init)));
   ConfigureTcpOptions (tcpVariant, packetSize, bufferSize);
 
   /**** DmgWifiHelper is a meta-helper ****/
@@ -787,25 +944,26 @@ main (int argc, char *argv[])
       cout << "Packet sink has been installed" << endl;      
     }
   // return 0; // 安裝 app 相關設定檢查點
-
-  Ptr<PacketSink> left_packetSink[user_num];
-  Ptr<PacketSink> right_packetSink[user_num];
-  Ptr<OnOffApplication> left_onoff[user_num];
-  Ptr<OnOffApplication> right_onoff[user_num];
-  for (int i = 0; i < user_num; i++) {
-        ApplicationContainer temp_appcon = left_apps.first.Get(i);
-        Ptr<PacketSink> temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
-        ApplicationContainer temp_appcon2 = left_apps.second.Get(i);
-        Ptr<OnOffApplication> temp_src = StaticCast<OnOffApplication> (temp_appcon2.Get(0));
-        left_packetSink[i] = temp_sink;
-        left_onoff[i] = temp_src;
-        temp_appcon = right_apps.first.Get(i);
-        temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
-        temp_appcon2 = right_apps.second.Get(i);
-        temp_src = StaticCast<OnOffApplication> (temp_appcon2.Get(0));
-        right_packetSink[i] = temp_sink;
-        right_onoff[i] = temp_src;
-       }
+    Ptr<PacketSink> left_packetSink[user_num];
+    Ptr<PacketSink> right_packetSink[user_num];
+    Ptr<OnOffApplication> left_onoff[user_num];
+    Ptr<OnOffApplication> right_onoff[user_num];
+  if (activateApp){
+    for (int i = 0; i < user_num; i++) {
+          ApplicationContainer temp_appcon = left_apps.first.Get(i);
+          Ptr<PacketSink> temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
+          ApplicationContainer temp_appcon2 = left_apps.second.Get(i);
+          Ptr<OnOffApplication> temp_src = StaticCast<OnOffApplication> (temp_appcon2.Get(0));
+          left_packetSink[i] = temp_sink;
+          left_onoff[i] = temp_src;
+          temp_appcon = right_apps.first.Get(i);
+          temp_sink = StaticCast<PacketSink> (temp_appcon.Get(0));
+          temp_appcon2 = right_apps.second.Get(i);
+          temp_src = StaticCast<OnOffApplication> (temp_appcon2.Get(0));
+          right_packetSink[i] = temp_sink;
+          right_onoff[i] = temp_src;
+        }
+  }
   // return 0; // 安裝 app 相關設定檢查點
   /* Enable Traces */
   if (pcapTracing)
@@ -867,6 +1025,14 @@ main (int argc, char *argv[])
   Ptr<WifiRemoteStationManager> manager = staWifiMac_left[0]->GetWifiRemoteStationManager();
   manager->AddSupportedMcs (staWifiMac_left[0]->GetAddress(), WifiMode("EDMG_OFDM_MCS4"));
   FlowMonitorHelper flowmon;
+  ThroughputCalculator left_throughputCalculator(STA_etherNodes, RT_enable);
+  ThroughputCalculator right_throughputCalculator(STA_etherNodes, RT_enable);
+  
+  
+  std::string rto_trace_filename = file_dir + "rto_logs/rto_trace.csv";
+  std::string rtt_trace_filename = file_dir + "rtt_logs/rtt_trace.csv";
+  RtoTraceback rto_traceback(rto_trace_filename);
+  RttTraceback rtt_traceback(rtt_trace_filename);
   if (activateApp)
     {
       /* Install FlowMonitor on all nodes */
@@ -877,8 +1043,17 @@ main (int argc, char *argv[])
       Simulator::Schedule (Seconds (0.0), &new_CreateFile, file_dir, user_num);
       string retrain_str = RT_enable ? "enabled" : "disabled";
       cout << "CHECK retrain is " << retrain_str << endl;
-      Simulator::Schedule (Seconds (0.1), &left_new_CalculateThroughput, file_dir,leftAPWifi_node,STA_etherNodes,left_apps,staWifiMac_left,true);
-      Simulator::Schedule (Seconds (0.1), &right_new_CalculateThroughput, file_dir,rightAPWifi_node,STA_etherNodes,right_apps,staWifiMac_right,false);
+      Simulator::Schedule (Seconds (0.1), &ThroughputCalculator::CalculateThroughput,&left_throughputCalculator, file_dir, leftAPWifi_node, STA_etherNodes, left_apps, staWifiMac_left, true);
+      Simulator::Schedule (Seconds (0.1), &ThroughputCalculator::CalculateThroughput,&right_throughputCalculator, file_dir, rightAPWifi_node, STA_etherNodes, right_apps, staWifiMac_right, false);
+      // Simulator::Schedule (Seconds (0.1), &new_CalculateThroughput, file_dir,leftAPWifi_node,STA_etherNodes,left_apps,staWifiMac_left,true);
+      // Simulator::Schedule (Seconds (0.1), &new_CalculateThroughput, file_dir,rightAPWifi_node,STA_etherNodes,right_apps,staWifiMac_right,false);
+      cout<<"現在跑到這裡"<<endl;
+      std::string STA0LeftTcpPath_rto = "/NodeList/"+std::to_string(leftAPWifi_node->GetId())+
+                                    "/$ns3::TcpL4Protocol/SocketList/0/RTO";
+      std::string STA0LeftTcpPath_rtt = "/NodeList/"+std::to_string(leftAPWifi_node->GetId())+
+                                    "/$ns3::TcpL4Protocol/SocketList/0/RTT";
+      Simulator::Schedule (Seconds (2.11), &Config::ConnectWithoutContext,STA0LeftTcpPath_rto,MakeCallback(&RtoTraceback::RtoTrace, &rto_traceback));
+      Simulator::Schedule (Seconds (2.11), &Config::ConnectWithoutContext,STA0LeftTcpPath_rtt,MakeCallback(&RttTraceback::RttTrace, &rtt_traceback));
     }
   /* Schedule many TXSS CBAPs during the data transmission interval. */
   
