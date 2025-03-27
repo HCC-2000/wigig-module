@@ -1,5 +1,7 @@
 build/
 doc/
+SHARED_FOLDER/
+exp_result/
 *.tr
 *.pcap
 *.dat
